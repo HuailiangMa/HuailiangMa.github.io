@@ -21,7 +21,8 @@ My Master's research mainly focuses on **imitation learning**, **robotic teleope
 ### Recent Publications & Submissions
 
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-  <img src="/images/AutoTrialGen.jpg" style="width:150px; margin-right: 20px; border-radius: 5px;">
+  <img src="/images/AutoTrialGen.jpg" 
+       style="height:180px; margin-right: 20px; border-radius: 5px; object-fit: cover;">
   <div>
     <strong>Ma, H.</strong>, Song, A., et al.<br>
     <em>AutoTrialGen: Automated Data Generation from Few Human Demonstrations via Trajectory Annotation and Simulation Trials.</em><br>
