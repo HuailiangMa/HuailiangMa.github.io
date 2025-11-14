@@ -15,27 +15,42 @@ I received my Bachelor’s degree from the **School of Control Science and Engin
 
 I am currently seeking a **Ph.D. position** in robotics.  
 My future research interests include **Vision-Language-Action (VLA) models**, **reinforcement learning**, and **dexterous manipulation**.
-
-
 ---
+My Master's research mainly focuses on **imitation learning**, **robotic teleoperation**, **data generation for robot manipulation** and **motion control and odometry of humanoid robots**. Below are my recent publications and submissions:
 
-### Publications and Research Overview
+### Recent Publications & Submissions
 
-My Master’s research mainly revolves around **imitation learning**, **data generation for robot manipulation**, and **teleoperation of robotic arms**. As I have only been in the program for about one year, some of my works are still under review or under submission:
+- **Ma, H.**, Song, A., et al.  
+  *AutoTrialGen: Automated Data Generation from Few Human Demonstrations via Trajectory Annotation and Simulation Trials.*  
+  Submitted to **IEEE Robotics and Automation Letters (RA-L)**, 2025. *(First author, under review)*
 
-- One **first-author paper** submitted to **IEEE Robotics and Automation Letters (RA-L, under review)**  
-- One **first-author conference paper** submitted to the **International Conference on Bio-inspired System and Robotics (ICBSR 2025, under review)**  
-- One **co-first-author paper** submitted to **Acta Automatica Sinica (under review)**  
-- One **fourth-author paper** accepted by an **EI-indexed conference**
+- **Ma, H.**, Song, A., Xu, B., et al.  
+  *SkillComposer: Automated Segmentation and Robot Skill Composition for Scalable Data Generation.*  
+  Submitted to the **2025 International Conference on Bio-inspired System and Robotics (ICBSR 2025)**, Xishuangbanna, China, Dec 26–29, 2025. *(First author, under review)*
 
-During my undergraduate studies, I worked mainly on **motion control and odometry of humanoid robots**:
+- **Ma, H.**, Li, Y., et al.  
+  *A Servo Intervention Loop for Efficient Sampling in Reinforcement Learning.*  
+  Submitted to the **2026 Robotics: Science and Systems (RSS 2026)**. *(Co-first author, under review)*
 
-- I published a **first-author paper in a JCR Q1 journal**, and the work has also been transferred into a **patent**;  
-- I received several honors, including:
-  - **National First Prize** in the China Undergraduate Electronics Design Contest (project: Motion Target Control and Automatic Tracking System);  
-  - **Outstanding Graduate of Shandong Province**;  
-  - **Outstanding Graduate of Shandong University**;  
-  - **Outstanding Undergraduate Thesis of Shandong University**, among others.
+- **Ma, H.**, Zhang, G., Li, Y., et al.  
+  *Legged Odometry Based on Fusion of Leg Kinematics and IMU Information in a Humanoid Robot.*  
+  **Biomimetic Intelligence and Robotics**, 2024. *(First author, JCR Q1, IF = 5.4)*
+
+- He, M., Song, A., Yan, Y., **Ma, H.**, et al.  
+  *A Multimodal Shared Telerobotic System of Three-arm Space Robot for Extravehicular Activities.*  
+  In **Proceedings of the 23rd IFAC Symposium on Automatic Control in Aerospace (ACA 2025)**, Harbin, China, 2025. *(Fourth author, EI-indexed conference, accepted)*
+---
+### Honors & Awards
+
+- **National Scholarship for Graduate Students**, Southeast University  
+- **National First Prize**, China Undergraduate Electronics Design Contest  
+  *(Motion Target Control and Automatic Tracking System)*  
+- **Outstanding Graduate of Shandong Province**  
+- **Outstanding Graduate of Shandong University**  
+- **Outstanding Undergraduate Thesis Award**, Shandong University  
+- **First-Class Academic Scholarship**, Southeast University  
+- **First-Class Research & Innovation Scholarship**, Shandong University  
+- **Three consecutive years of First-Class Academic Scholarship**, Shandong University
 
 ---
 
