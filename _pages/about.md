@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "🚀 Huailiang Ma | Homepage"
 author_profile: true
 redirect_from:
   - /about/
