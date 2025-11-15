@@ -20,36 +20,68 @@ My Master's research mainly focuses on **imitation learning**, **robotic teleope
 
 ### Recent Publications & Submissions
 
+<!-- AutoTrialGen -->
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
   <img src="/images/AutoTrialGen.jpg" 
        style="height:180px; margin-right: 20px; border-radius: 5px; object-fit: cover;">
   <div>
-    <strong>Ma, H.</strong>, Song, A., et al.<br>
+    <strong>Ma, H.</strong>, Song, A., He, M., Yan, Y., Li, M., Wei, L. al.<br>
     <em>AutoTrialGen: Automated Data Generation from Few Human Demonstrations via Trajectory Annotation and Simulation Trials.</em><br>
     Submitted to <strong>IEEE Robotics and Automation Letters (RA-L)</strong>, 2025.  
     <em>(First author, under review)</em>
   </div>
 </div>
 
-- **Ma, H.**, Song, A., et al.  
-  *AutoTrialGen: Automated Data Generation from Few Human Demonstrations via Trajectory Annotation and Simulation Trials.*  
-  Submitted to **IEEE Robotics and Automation Letters (RA-L)**, 2025. *(First author, under review)*
+<!-- SkillComposer -->
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <img src="/images/SkillComposer.png" 
+       style="height:180px; margin-right: 20px; border-radius: 5px; object-fit: cover;">
+  <div>
+    <strong>Ma, H.</strong>, Song, A., Xu, B., et al.<br>
+    <em>SkillComposer: Automated Segmentation and Robot Skill Composition for Scalable Data Generation.</em><br>
+    Submitted to the <strong>2025 International Conference on Bio-inspired System and Robotics (ICBSR 2025)</strong>,  
+    Xishuangbanna, China, Dec 26–29, 2025.  
+    <em>(First author, under review)</em>
+  </div>
+</div>
 
-- **Ma, H.**, Song, A., Xu, B., et al.  
-  *SkillComposer: Automated Segmentation and Robot Skill Composition for Scalable Data Generation.*  
-  Submitted to the **2025 International Conference on Bio-inspired System and Robotics (ICBSR 2025)**, Xishuangbanna, China, Dec 26–29, 2025. *(First author, under review)*
+<!-- Servo Intervention Loop -->
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <img src="/images/人在回路强化学习.png" 
+       style="height:180px; margin-right: 20px; border-radius: 5px; object-fit: cover;">
+  <div>
+    <strong>Ma, H.</strong>, Li, Y., et al.<br>
+    <em>A Servo Intervention Loop for Efficient Sampling in Reinforcement Learning.</em><br>
+    Submitted to the <strong>Robotics: Science and Systems (RSS 2026)</strong>.  
+    <em>(Co-first author, under review)</em>
+  </div>
+</div>
 
-- **Ma, H.**, Li, Y., et al.  
-  *A Servo Intervention Loop for Efficient Sampling in Reinforcement Learning.*  
-  Submitted to the **2026 Robotics: Science and Systems (RSS 2026)**. *(Co-first author, under review)*
+<!-- Humanoid Odometry -->
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <img src="/images/Odometry.png" 
+       style="height:180px; margin-right: 20px; border-radius: 5px; object-fit: cover;">
+  <div>
+    <strong>Ma, H.</strong>, Zhang, G., Li, Y., et al.<br>
+    <em>Legged Odometry Based on Fusion of Leg Kinematics and IMU Information in a Humanoid Robot.</em><br>
+    <strong>Biomimetic Intelligence and Robotics</strong>, 2024.  
+    <em>(First author, JCR Q1, IF = 5.4)</em>
+  </div>
+</div>
 
-- **Ma, H.**, Zhang, G., Li, Y., et al.  
-  *Legged Odometry Based on Fusion of Leg Kinematics and IMU Information in a Humanoid Robot.*  
-  **Biomimetic Intelligence and Robotics**, 2024. *(First author, JCR Q1, IF = 5.4)*
+<!-- Three-arm Space Robot -->
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <img src="/images/Three_arms.jpg" 
+       style="height:180px; margin-right: 20px; border-radius: 5px; object-fit: cover;">
+  <div>
+    He, M., Song, A., Yan, Y., <strong>Ma, H.</strong>, et al.<br>
+    <em>A Multimodal Shared Telerobotic System of Three-arm Space Robot for Extravehicular Activities.</em><br>
+    In <strong>Proceedings of the 23rd IFAC Symposium on Automatic Control in Aerospace (ACA 2025)</strong>,  
+    Harbin, China, 2025.  
+    <em>(Fourth author, EI-indexed conference, accepted)</em>
+  </div>
+</div>
 
-- He, M., Song, A., Yan, Y., **Ma, H.**, et al.  
-  *A Multimodal Shared Telerobotic System of Three-arm Space Robot for Extravehicular Activities.*  
-  In **Proceedings of the 23rd IFAC Symposium on Automatic Control in Aerospace (ACA 2025)**, Harbin, China, 2025. *(Fourth author, EI-indexed conference, accepted)*
 ---
 ### Honors & Awards
 
