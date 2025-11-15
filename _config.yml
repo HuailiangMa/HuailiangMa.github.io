@@ -20,23 +20,23 @@ repository               : "academicpages/academicpages.github.io"
 # Site Author
 author:
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Huailiang Ma"
   pronouns         :
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Master’s student at Southeast University. Research in imitation learning, dataset generation, robotic teleoperation."
+  location         : "Nanjing, China"
+  employer         : "Southeast University"
   uri              :
-  email            : "none@example.org"
+  email            : "huailiangma@163.com"
 
   # Academic websites
   academia         :
   arxiv            :
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com.hk/citations?hl=zh-CN&user=HsrhHWIAAAAJ"
   inspire-hep      :
   impactstory      :
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/my-orcid?orcid=0009-0005-5370-0101"
   semantic         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : 
   researchgate     :
   scopus           :
 
@@ -44,13 +44,13 @@ author:
   bitbucket        :
   codepen          :
   dribbble         :
-  github           : "academicpages"
+  github           : "https://github.com/HuailiangMa"
   kaggle           :
   stackoverflow    :
 
   # Social media
   artstation       :
-  bluesky          : "bsky.app"
+  bluesky          : 
   facebook         :
   flickr           :
   foursquare       :
