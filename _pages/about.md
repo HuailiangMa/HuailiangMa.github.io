@@ -26,7 +26,7 @@ My Master's research mainly focuses on **imitation learning**, **robotic teleope
   <img src="/images/AutoTrialGen.jpg" 
        style="height:180px; width:320px; margin-right: 20px; border-radius: 5px; object-fit: cover;">
   <div style="flex:1;">
-    <strong>Ma, H.</strong>, Song, A., He, M., Yan, Y., Li, M., Wei, L. al.<br>
+    <strong>Ma, H.</strong>, Song, A., He, M., Yan, Y., Li, M., Wei, L., al.<br>
     <em>AutoTrialGen: Automated Data Generation from Few Human Demonstrations via Trajectory Annotation and Simulation Trials.</em><br>
     Submitted to <strong>IEEE Robotics and Automation Letters (RA-L)</strong>, 2025.  
     <em>(First author, under review)</em>
@@ -46,27 +46,27 @@ My Master's research mainly focuses on **imitation learning**, **robotic teleope
   </div>
 </div>
 
-<!-- Servo Intervention Loop -->
-<div style="display: flex; align-items: flex-start; min-height:180px; margin-bottom: 20px;">
-  <img src="/images/人在回路强化学习.png" 
-       style="height:180px; width:320px; margin-right: 20px; border-radius: 5px; object-fit: cover;">
-  <div style="flex:1;">
-    <strong>Ma, H.</strong>, Li, Y., et al.<br>
-    <em>A Servo Intervention Loop for Efficient Sampling in Reinforcement Learning.</em><br>
-    Submitted to the <strong>Robotics: Science and Systems (RSS 2026)</strong>.  
-    <em>(Co-first author, under review)</em>
-  </div>
-</div>
-
 <!-- Humanoid Odometry -->
 <div style="display: flex; align-items: flex-start; min-height:180px; margin-bottom: 20px;">
   <img src="/images/Odometry.png" 
        style="height:180px; width:320px; margin-right: 20px; border-radius: 5px; object-fit: cover;">
   <div style="flex:1;">
-    <strong>Ma, H.</strong>, Zhang, G., Li, Y., et al.<br>
+    <strong>Ma, H.</strong>, Song, A., Li, J., Zhang, G., et al.<br>
     <em>Legged Odometry Based on Fusion of Leg Kinematics and IMU Information in a Humanoid Robot.</em><br>
     <strong>Biomimetic Intelligence and Robotics</strong>, 2024.  
     <em>(First author, JCR Q1, IF = 5.4)</em>
+  </div>
+</div>
+
+<!-- Servo Intervention Loop -->
+<div style="display: flex; align-items: flex-start; min-height:180px; margin-bottom: 20px;">
+  <img src="/images/人在回路强化学习.png" 
+       style="height:180px; width:320px; margin-right: 20px; border-radius: 5px; object-fit: cover;">
+  <div style="flex:1;">
+    <strong>Li, P., Li, Y., Ma, H.</strong>, Song, A., et al.<br>
+    <em>A Servo Intervention Loop for Efficient Sampling in Reinforcement Learning.</em><br>
+    Submitted to the <strong>Robotics: Science and Systems (RSS 2026)</strong>.  
+    <em>(Co-first author, under review)</em>
   </div>
 </div>
 
