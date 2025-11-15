@@ -63,7 +63,7 @@ My Master's research mainly focuses on **imitation learning**, **robotic teleope
   <img src="/images/人在回路强化学习.png" 
        style="height:180px; width:320px; margin-right: 20px; border-radius: 5px; object-fit: cover;">
   <div style="flex:1;">
-    <strong>Li, P., Li, Y., Ma, H.</strong>, Song, A., et al.<br>
+    Li, P., Li, Y., <strong>Ma, H.</strong>, Song, A., et al.<br>
     <em>A Servo Intervention Loop for Efficient Sampling in Reinforcement Learning.</em><br>
     Submitted to the <strong>Robotics: Science and Systems (RSS 2026)</strong>.  
     <em>(Co-first author, under review)</em>
