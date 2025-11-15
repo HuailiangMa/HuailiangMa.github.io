@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Huailiang Ma / Site Title"
+title                    : "Huailiang Ma / Homepage"
 title_separator          : "-"
 name                     : &name "Huailiang Ma"
 description              : &description "Huailiang Ma's homepage"
