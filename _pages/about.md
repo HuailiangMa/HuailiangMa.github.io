@@ -21,10 +21,10 @@ My Master's research mainly focuses on **imitation learning**, **robotic teleope
 ### Recent Publications & Submissions
 
 <!-- AutoTrialGen -->
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+<div style="display: flex; align-items: flex-start; min-height:180px; margin-bottom: 20px;">
   <img src="/images/AutoTrialGen.jpg" 
-       style="height:180px; margin-right: 20px; border-radius: 5px; object-fit: cover;">
-  <div>
+       style="height:180px; width:180px; margin-right: 20px; border-radius: 5px; object-fit: cover;">
+  <div style="flex:1;">
     <strong>Ma, H.</strong>, Song, A., He, M., Yan, Y., Li, M., Wei, L. al.<br>
     <em>AutoTrialGen: Automated Data Generation from Few Human Demonstrations via Trajectory Annotation and Simulation Trials.</em><br>
     Submitted to <strong>IEEE Robotics and Automation Letters (RA-L)</strong>, 2025.  
@@ -33,10 +33,10 @@ My Master's research mainly focuses on **imitation learning**, **robotic teleope
 </div>
 
 <!-- SkillComposer -->
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+<div style="display: flex; align-items: flex-start; min-height:180px; margin-bottom: 20px;">
   <img src="/images/SkillComposer.png" 
-       style="height:180px; margin-right: 20px; border-radius: 5px; object-fit: cover;">
-  <div>
+       style="height:180px; width:180px; margin-right: 20px; border-radius: 5px; object-fit: cover;">
+  <div style="flex:1;">
     <strong>Ma, H.</strong>, Song, A., Xu, B., et al.<br>
     <em>SkillComposer: Automated Segmentation and Robot Skill Composition for Scalable Data Generation.</em><br>
     Submitted to the <strong>2025 International Conference on Bio-inspired System and Robotics (ICBSR 2025)</strong>,  
@@ -46,10 +46,10 @@ My Master's research mainly focuses on **imitation learning**, **robotic teleope
 </div>
 
 <!-- Servo Intervention Loop -->
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+<div style="display: flex; align-items: flex-start; min-height:180px; margin-bottom: 20px;">
   <img src="/images/人在回路强化学习.png" 
-       style="height:180px; margin-right: 20px; border-radius: 5px; object-fit: cover;">
-  <div>
+       style="height:180px; width:180px; margin-right: 20px; border-radius: 5px; object-fit: cover;">
+  <div style="flex:1;">
     <strong>Ma, H.</strong>, Li, Y., et al.<br>
     <em>A Servo Intervention Loop for Efficient Sampling in Reinforcement Learning.</em><br>
     Submitted to the <strong>Robotics: Science and Systems (RSS 2026)</strong>.  
@@ -58,10 +58,10 @@ My Master's research mainly focuses on **imitation learning**, **robotic teleope
 </div>
 
 <!-- Humanoid Odometry -->
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+<div style="display: flex; align-items: flex-start; min-height:180px; margin-bottom: 20px;">
   <img src="/images/Odometry.png" 
-       style="height:180px; margin-right: 20px; border-radius: 5px; object-fit: cover;">
-  <div>
+       style="height:180px; width:180px; margin-right: 20px; border-radius: 5px; object-fit: cover;">
+  <div style="flex:1;">
     <strong>Ma, H.</strong>, Zhang, G., Li, Y., et al.<br>
     <em>Legged Odometry Based on Fusion of Leg Kinematics and IMU Information in a Humanoid Robot.</em><br>
     <strong>Biomimetic Intelligence and Robotics</strong>, 2024.  
@@ -70,10 +70,10 @@ My Master's research mainly focuses on **imitation learning**, **robotic teleope
 </div>
 
 <!-- Three-arm Space Robot -->
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+<div style="display: flex; align-items: flex-start; min-height:180px; margin-bottom: 20px;">
   <img src="/images/Three_arms.jpg" 
-       style="height:180px; margin-right: 20px; border-radius: 5px; object-fit: cover;">
-  <div>
+       style="height:180px; width:180px; margin-right: 20px; border-radius: 5px; object-fit: cover;">
+  <div style="flex:1;">
     He, M., Song, A., Yan, Y., <strong>Ma, H.</strong>, et al.<br>
     <em>A Multimodal Shared Telerobotic System of Three-arm Space Robot for Extravehicular Activities.</em><br>
     In <strong>Proceedings of the 23rd IFAC Symposium on Automatic Control in Aerospace (ACA 2025)</strong>,  
@@ -81,7 +81,6 @@ My Master's research mainly focuses on **imitation learning**, **robotic teleope
     <em>(Fourth author, EI-indexed conference, accepted)</em>
   </div>
 </div>
-
 ---
 ### Honors & Awards
 
