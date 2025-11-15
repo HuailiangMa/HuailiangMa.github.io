@@ -9,13 +9,13 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Your Name / Site Title"
+title                    : "Huailiang Ma / Site Title"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"
-url                      : https://academicpages.github.io
+name                     : &name "Huailiang Ma"
+description              : &description "Huailiang Ma's homepage"
+url                      : https://huailiangma.github.io
 baseurl                  : ""
-repository               : "academicpages/academicpages.github.io"
+repository               : "HuailiangMa/HuailiangMa.github.io"
 
 # Site Author
 author:
@@ -73,7 +73,7 @@ author:
   wikipedia        :
   xing             :
   youtube          :
-  zhihu            :
+  zhihu            :"https://blog.csdn.net/qq_53186375"
 
 # Publication Category
 publication_category:
