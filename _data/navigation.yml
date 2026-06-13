@@ -4,8 +4,17 @@ main:
   - title: "Home"
     url: /
 
-  - title: "Publications"
-    url: /publications/
+  - title: "Education"
+    url: /#education
 
-  - title: "Portfolio"
-    url: /portfolio/
+  - title: "Research"
+    url: /#research-interests
+
+  - title: "Publications"
+    url: /#selected-publications
+
+  - title: "Links"
+    url: /#academic-links
+
+  - title: "Contact"
+    url: /#contact
