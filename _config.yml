@@ -9,17 +9,17 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Huailiang Ma / Homepage"
+title                    : "Personal Homepage"
 title_separator          : "-"
 name                     : &name "Huailiang Ma"
-description              : &description "Huailiang Ma's homepage"
+description              : &description "Personal academic homepage"
 url                      : https://huailiangma.github.io
 baseurl                  : ""
 repository               : "HuailiangMa/HuailiangMa.github.io"
 
 # Site Author
 author:
-  avatar           : "huailiangma.jpg"
+  avatar           : "anime-avatar.png"
   name             : "Huailiang Ma"
   pronouns         :
   bio              : "Ph.D. student at Southeast University. Research in embodied intelligence, world models, VLA, and robotics."
