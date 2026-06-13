@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Huailiang Ma"
+title: "About"
 author_profile: true
 redirect_from:
   - /about/
@@ -45,17 +45,6 @@ I received my Bachelor's degree from the **School of Control Science and Enginee
 4. He, M., Song, A., Yan, Y., **Ma, H.**, et al.  
    *A Multimodal Shared Telerobotic System of Three-arm Space Robot for Extravehicular Activities.*  
    **Proceedings of the 23rd IFAC Symposium on Automatic Control in Aerospace (ACA 2025)**, Harbin, China, 2025. **Accepted.**
-
-## Honors & Awards
-
-- National Scholarship for Graduate Students, Southeast University
-- National First Prize, China Undergraduate Electronics Design Contest
-- Outstanding Graduate of Shandong Province
-- Outstanding Graduate of Shandong University
-- Outstanding Undergraduate Thesis Award, Shandong University
-- First-Class Academic Scholarship, Southeast University
-- First-Class Research & Innovation Scholarship, Shandong University
-- Three consecutive years of First-Class Academic Scholarship, Shandong University
 
 ## Academic Links
 
