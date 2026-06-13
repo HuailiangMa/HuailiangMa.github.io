@@ -1,209 +1,363 @@
 ---
 permalink: /
-title: "🚀 Huailiang Ma | Homepage"
+title: "Huailiang Ma | Robotics Researcher"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
-## Biography (English)
 
-Welcome to my homepage!  
-I am **Huailiang Ma**, currently a Master’s student at the **School of Instrument Science and Engineering, Southeast University**, majoring in **Instrumentation Science and Technology**. My research focuses on **imitation learning and robotic teleoperation**, particularly in **dataset generation** and **force-feedback teleoperation of robotic manipulators**. I am advised by **Prof. Aiguo Song** and conduct my research in the **Teleoperation Laboratory** of the Robot Sensing and Control Institute at Southeast University.
+<style>
+.personal-home {
+  --ink: #152238;
+  --muted: #5e6a7d;
+  --line: #dbe3ee;
+  --paper: #ffffff;
+  --soft: #f5f8fc;
+  --accent: #2563eb;
+  --accent-dark: #1d4ed8;
+  --green: #0f766e;
+  color: var(--ink);
+}
+.personal-home * { box-sizing: border-box; }
+.personal-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(260px, 0.85fr);
+  gap: 2rem;
+  align-items: center;
+  padding: 2.25rem;
+  margin: 0 0 2.25rem;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: linear-gradient(135deg, #ffffff 0%, #f4f8ff 56%, #eef7f5 100%);
+  box-shadow: 0 18px 45px rgba(21, 34, 56, 0.08);
+}
+.personal-kicker {
+  margin: 0 0 .7rem;
+  color: var(--green);
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.personal-hero h1 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 1.08;
+  letter-spacing: 0;
+}
+.personal-lede {
+  margin: 1rem 0 1.35rem;
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+.personal-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .7rem;
+  margin-top: 1.2rem;
+}
+.personal-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: .68rem 1rem;
+  border: 1px solid var(--accent);
+  border-radius: 10px;
+  background: var(--accent);
+  color: #fff !important;
+  font-weight: 700;
+  text-decoration: none !important;
+}
+.personal-button.secondary {
+  background: #fff;
+  color: var(--accent-dark) !important;
+}
+.personal-portrait {
+  overflow: hidden;
+  border-radius: 16px;
+  border: 1px solid rgba(37, 99, 235, .16);
+  background: var(--paper);
+  box-shadow: 0 14px 35px rgba(21, 34, 56, 0.1);
+}
+.personal-portrait img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+.personal-portrait figcaption {
+  padding: .85rem 1rem 1rem;
+  color: var(--muted);
+  font-size: .9rem;
+  line-height: 1.5;
+}
+.personal-section {
+  margin: 2.4rem 0;
+}
+.personal-section h2 {
+  margin: 0 0 1rem;
+  font-size: 1.45rem;
+  letter-spacing: 0;
+}
+.personal-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+.personal-card {
+  height: 100%;
+  padding: 1.15rem;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--paper);
+  box-shadow: 0 10px 26px rgba(21, 34, 56, 0.06);
+}
+.personal-card h3 {
+  margin: 0 0 .5rem;
+  font-size: 1rem;
+  line-height: 1.35;
+}
+.personal-card p,
+.personal-card li {
+  color: var(--muted);
+  line-height: 1.62;
+}
+.personal-card p { margin: 0; }
+.personal-card ul { margin: .35rem 0 0; padding-left: 1.1rem; }
+.paper-list {
+  display: grid;
+  gap: 1rem;
+}
+.paper-item {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 1.1rem;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--paper);
+}
+.paper-item img {
+  width: 100%;
+  height: 138px;
+  object-fit: cover;
+  border-radius: 10px;
+  background: var(--soft);
+}
+.paper-item h3 {
+  margin: 0 0 .35rem;
+  font-size: 1.02rem;
+  line-height: 1.4;
+}
+.paper-meta {
+  margin: .25rem 0;
+  color: var(--muted);
+  line-height: 1.55;
+}
+.paper-status {
+  display: inline-block;
+  margin-top: .35rem;
+  padding: .18rem .55rem;
+  border-radius: 999px;
+  background: #e8f1ff;
+  color: #1d4ed8;
+  font-size: .78rem;
+  font-weight: 700;
+}
+.personal-timeline {
+  display: grid;
+  gap: .85rem;
+}
+.timeline-row {
+  padding: 1rem 1.1rem;
+  border-left: 4px solid var(--accent);
+  background: var(--soft);
+  border-radius: 0 12px 12px 0;
+}
+.timeline-row strong { display: block; margin-bottom: .25rem; }
+.timeline-row span { color: var(--muted); line-height: 1.6; }
+.contact-band {
+  padding: 1.4rem;
+  border-radius: 16px;
+  background: #152238;
+  color: #fff;
+}
+.contact-band h2 { color: #fff; }
+.contact-band p { color: rgba(255,255,255,.78); line-height: 1.65; }
+.contact-band a { color: #bfdbfe; }
+@media (max-width: 900px) {
+  .personal-hero,
+  .paper-item { grid-template-columns: 1fr; }
+  .personal-grid { grid-template-columns: 1fr; }
+  .personal-hero { padding: 1.4rem; }
+}
+</style>
 
-I received my Bachelor’s degree from the **School of Control Science and Engineering, Shandong University**, ranking **3rd** in the Automation program. My undergraduate advisors were **Dr. Guoteng Zhang** and **Dr. Yibin Li**, under whose guidance I completed my thesis in the **biped robot laboratory**.
+<div class="personal-home">
+  <section class="personal-hero">
+    <div>
+      <p class="personal-kicker">Robotics · Imitation Learning · Teleoperation</p>
+      <h1>Huailiang Ma</h1>
+      <p class="personal-lede">
+        I am a Master's student at the School of Instrument Science and Engineering, Southeast University. My research focuses on imitation learning, robotic teleoperation, scalable robot data generation, and force-feedback manipulation systems. I am currently seeking a Ph.D. position in robotics.
+      </p>
+      <div class="personal-actions">
+        <a class="personal-button" href="mailto:huailiangma@163.com">Email Me</a>
+        <a class="personal-button secondary" href="https://scholar.google.com.hk/citations?hl=zh-CN&user=HsrhHWIAAAAJ">Google Scholar</a>
+        <a class="personal-button secondary" href="https://github.com/HuailiangMa">GitHub</a>
+        <a class="personal-button secondary" href="/cv/">CV</a>
+      </div>
+    </div>
+    <figure class="personal-portrait">
+      <img src="/images/AutoTrialGen.jpg" alt="Robot manipulation data generation project preview">
+      <figcaption>Researching real-to-sim-to-real robot learning pipelines for manipulation, teleoperation, and dexterous robotics.</figcaption>
+    </figure>
+  </section>
 
-I am currently seeking a **Ph.D. position** in robotics.  
-My future research interests include **Vision-Language-Action (VLA) models**, **reinforcement learning**, and **dexterous manipulation**.
----
-My Master's research mainly focuses on **imitation learning**, **robotic teleoperation**, **data generation for robot manipulation** and **motion control and odometry of humanoid robots**. Below are my recent publications and submissions:
+  <section id="research" class="personal-section">
+    <h2>Research Interests</h2>
+    <div class="personal-grid">
+      <article class="personal-card">
+        <h3>Imitation Learning</h3>
+        <p>Learning reusable robot policies from demonstrations, with emphasis on generalization and efficient dataset construction.</p>
+      </article>
+      <article class="personal-card">
+        <h3>Robot Data Generation</h3>
+        <p>Automated trajectory annotation, simulation trials, skill segmentation, and scalable real-to-sim-to-real data pipelines.</p>
+      </article>
+      <article class="personal-card">
+        <h3>Teleoperation & Manipulation</h3>
+        <p>Force-feedback teleoperation, dexterous hand control, haptic interfaces, and manipulation systems for complex tasks.</p>
+      </article>
+    </div>
+  </section>
 
-### Recent Publications & Submissions
+  <section id="publications" class="personal-section">
+    <h2>Selected Publications & Submissions</h2>
+    <div class="paper-list">
+      <article class="paper-item">
+        <img src="/images/AutoTrialGen.jpg" alt="AutoTrialGen preview">
+        <div>
+          <h3>AutoTrialGen: Automated Data Generation from Few Human Demonstrations via Trajectory Annotation and Simulation Trials</h3>
+          <p class="paper-meta"><strong>Ma, H.</strong>, Song, A., He, M., Yan, Y., Li, M., Wei, L., et al.</p>
+          <p class="paper-meta">Submitted to IEEE Robotics and Automation Letters (RA-L), 2025.</p>
+          <span class="paper-status">First author · Under review</span>
+        </div>
+      </article>
 
+      <article class="paper-item">
+        <img src="/images/SkillComposer.png" alt="SkillComposer preview">
+        <div>
+          <h3>SkillComposer: Automated Segmentation and Robot Skill Composition for Scalable Data Generation</h3>
+          <p class="paper-meta"><strong>Ma, H.</strong>, Song, A., Xu, B., et al.</p>
+          <p class="paper-meta">Submitted to ICBSR 2025, Xishuangbanna, China, Dec 26-29, 2025.</p>
+          <span class="paper-status">First author · Under review</span>
+        </div>
+      </article>
 
-<!-- AutoTrialGen -->
-<div style="display: flex; align-items: flex-start; min-height:180px; margin-bottom: 20px;">
-  <img src="/images/AutoTrialGen.jpg" 
-       style="height:180px; width:320px; margin-right: 20px; border-radius: 5px; object-fit: cover;">
-  <div style="flex:1;">
-    <strong>Ma, H.</strong>, Song, A., He, M., Yan, Y., Li, M., Wei, L., al.<br>
-    <em>AutoTrialGen: Automated Data Generation from Few Human Demonstrations via Trajectory Annotation and Simulation Trials.</em><br>
-    Submitted to <strong>IEEE Robotics and Automation Letters (RA-L)</strong>, 2025.  
-    <em>(First author, under review)</em>
-  </div>
+      <article class="paper-item">
+        <img src="/images/Odometry.png" alt="Humanoid odometry preview">
+        <div>
+          <h3>Legged Odometry Based on Fusion of Leg Kinematics and IMU Information in a Humanoid Robot</h3>
+          <p class="paper-meta"><strong>Ma, H.</strong>, Song, A., Li, J., Zhang, G., et al.</p>
+          <p class="paper-meta">Biomimetic Intelligence and Robotics, 2024.</p>
+          <span class="paper-status">First author · JCR Q1</span>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <img src="/images/人在回路强化学习.png" alt="Servo intervention loop preview">
+        <div>
+          <h3>A Servo Intervention Loop for Efficient Sampling in Reinforcement Learning</h3>
+          <p class="paper-meta">Li, P., Li, Y., <strong>Ma, H.</strong>, Song, A., et al.</p>
+          <p class="paper-meta">Submitted to Robotics: Science and Systems (RSS 2026).</p>
+          <span class="paper-status">Co-first author · Under review</span>
+        </div>
+      </article>
+
+      <article class="paper-item">
+        <img src="/images/Three_arms.jpg" alt="Three-arm space robot preview">
+        <div>
+          <h3>A Multimodal Shared Telerobotic System of Three-arm Space Robot for Extravehicular Activities</h3>
+          <p class="paper-meta">He, M., Song, A., Yan, Y., <strong>Ma, H.</strong>, et al.</p>
+          <p class="paper-meta">Proceedings of the 23rd IFAC Symposium on Automatic Control in Aerospace (ACA 2025), Harbin, China.</p>
+          <span class="paper-status">Accepted · EI-indexed conference</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="projects" class="personal-section">
+    <h2>Representative Work</h2>
+    <div class="personal-grid">
+      <article class="personal-card">
+        <h3>AutoTrialGen</h3>
+        <p>A real-to-sim-to-real framework that expands a few human demonstrations into diverse, validated simulation trajectories for imitation learning.</p>
+      </article>
+      <article class="personal-card">
+        <h3>SkillComposer</h3>
+        <p>A skill segmentation and composition strategy using weighted penalties to avoid singularities and produce more robust robot trajectories.</p>
+      </article>
+      <article class="personal-card">
+        <h3>Humanoid Odometry</h3>
+        <p>An odometry framework that fuses leg kinematics and IMU measurements to estimate robot center-of-mass state during locomotion.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="experience" class="personal-section">
+    <h2>Projects & Engineering Experience</h2>
+    <div class="personal-timeline">
+      <div class="timeline-row">
+        <strong>Humanoid Robot for Power Grid Inspection</strong>
+        <span>Teleoperation of an L20 dexterous hand with Manus Prime 3 data glove mapping for inspection-oriented manipulation.</span>
+      </div>
+      <div class="timeline-row">
+        <strong>Force-feedback Teleoperation for Live-line Operation</strong>
+        <span>Manipulator control with haptic devices, incremental end-effector pose commands, UDP communication, and master-slave state streaming.</span>
+      </div>
+      <div class="timeline-row">
+        <strong>Three-arm Space Robot Teleoperation</strong>
+        <span>Multi-arm coordination, task allocation, and shared teleoperation interface design for aerospace robotic systems.</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="honors" class="personal-section">
+    <h2>Honors & Awards</h2>
+    <div class="personal-grid">
+      <article class="personal-card">
+        <h3>Scholarships</h3>
+        <ul>
+          <li>National Scholarship for Graduate Students, Southeast University</li>
+          <li>First-Class Academic Scholarship, Southeast University</li>
+          <li>Three consecutive years of First-Class Academic Scholarship, Shandong University</li>
+        </ul>
+      </article>
+      <article class="personal-card">
+        <h3>Competitions</h3>
+        <ul>
+          <li>National First Prize, China Undergraduate Electronics Design Contest</li>
+          <li>First-Class Research & Innovation Scholarship, Shandong University</li>
+        </ul>
+      </article>
+      <article class="personal-card">
+        <h3>Academic Recognition</h3>
+        <ul>
+          <li>Outstanding Graduate of Shandong Province</li>
+          <li>Outstanding Graduate of Shandong University</li>
+          <li>Outstanding Undergraduate Thesis Award, Shandong University</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="personal-section contact-band">
+    <h2>Contact</h2>
+    <p>I welcome conversations about imitation learning, robot data generation, teleoperation, VLA models, reinforcement learning, and dexterous manipulation.</p>
+    <p>Email: <a href="mailto:huailiangma@163.com">huailiangma@163.com</a> · GitHub: <a href="https://github.com/HuailiangMa">HuailiangMa</a> · Google Scholar: <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=HsrhHWIAAAAJ">Profile</a></p>
+  </section>
 </div>
-
-<!-- SkillComposer -->
-<div style="display: flex; align-items: flex-start; min-height:180px; margin-bottom: 20px;">
-  <img src="/images/SkillComposer.png" 
-       style="height:180px; width:320px; margin-right: 20px; border-radius: 5px; object-fit: cover;">
-  <div style="flex:1;">
-    <strong>Ma, H.</strong>, Song, A., Xu, B., et al.<br>
-    <em>SkillComposer: Automated Segmentation and Robot Skill Composition for Scalable Data Generation.</em><br>
-    Submitted to the <strong>2025 International Conference on Bio-inspired System and Robotics (ICBSR 2025)</strong>,  
-    Xishuangbanna, China, Dec 26–29, 2025.  
-    <em>(First author, under review)</em>
-  </div>
-</div>
-
-<!-- Humanoid Odometry -->
-<div style="display: flex; align-items: flex-start; min-height:180px; margin-bottom: 20px;">
-  <img src="/images/Odometry.png" 
-       style="height:180px; width:320px; margin-right: 20px; border-radius: 5px; object-fit: cover;">
-  <div style="flex:1;">
-    <strong>Ma, H.</strong>, Song, A., Li, J., Zhang, G., et al.<br>
-    <em>Legged Odometry Based on Fusion of Leg Kinematics and IMU Information in a Humanoid Robot.</em><br>
-    <strong>Biomimetic Intelligence and Robotics</strong>, 2024.  
-    <em>(First author, JCR Q1, IF = 5.4)</em>
-  </div>
-</div>
-
-<!-- Servo Intervention Loop -->
-<div style="display: flex; align-items: flex-start; min-height:180px; margin-bottom: 20px;">
-  <img src="/images/人在回路强化学习.png" 
-       style="height:180px; width:320px; margin-right: 20px; border-radius: 5px; object-fit: cover;">
-  <div style="flex:1;">
-    Li, P., Li, Y., <strong>Ma, H.</strong>, Song, A., et al.<br>
-    <em>A Servo Intervention Loop for Efficient Sampling in Reinforcement Learning.</em><br>
-    Submitted to the <strong>Robotics: Science and Systems (RSS 2026)</strong>.  
-    <em>(Co-first author, under review)</em>
-  </div>
-</div>
-
-<!-- Three-arm Space Robot -->
-<div style="display: flex; align-items: flex-start; min-height:180px; margin-bottom: 20px;">
-  <img src="/images/Three_arms.jpg" 
-       style="height:180px; width:320px; margin-right: 20px; border-radius: 5px; object-fit: cover;">
-  <div style="flex:1;">
-    He, M., Song, A., Yan, Y., <strong>Ma, H.</strong>, et al.<br>
-    <em>A Multimodal Shared Telerobotic System of Three-arm Space Robot for Extravehicular Activities.</em><br>
-    In <strong>Proceedings of the 23rd IFAC Symposium on Automatic Control in Aerospace (ACA 2025)</strong>,  
-    Harbin, China, 2025.  
-    <em>(Fourth author, EI-indexed conference, accepted)</em>
-  </div>
-</div>
----
-
-
-### Honors & Awards
-
-- **National Scholarship for Graduate Students**, Southeast University  
-- **National First Prize**, China Undergraduate Electronics Design Contest  
-  *(Motion Target Control and Automatic Tracking System)*  
-- **Outstanding Graduate of Shandong Province**  
-- **Outstanding Graduate of Shandong University**  
-- **Outstanding Undergraduate Thesis Award**, Shandong University  
-- **First-Class Academic Scholarship**, Southeast University  
-- **First-Class Research & Innovation Scholarship**, Shandong University  
-- **Three consecutive years of First-Class Academic Scholarship**, Shandong University
-
----
-
-### Representative Work I: AutoTrialGen (first author, under review)
-
-My primary Master’s project is a paper currently under submission, titled **AutoTrialGen**, which is my first complete work during my graduate study.
-
-**Core idea:**  
-AutoTrialGen automatically generates large-scale, high-quality datasets from **a few human demonstrations**, by combining **trajectory annotation** and **simulation-based trials**, and then uses the generated dataset to train imitation learning policies that can be deployed on **real robots**.
-
-**Main contributions:**
-
-1. **An automated real-to-sim-to-real data generation framework**  
-   - Requires only a **small number of expert demonstrations** in the real world;  
-   - Automatically expands them into a large, diverse, and feasible dataset in simulation;  
-   - The generated dataset improves the **generalization** of learned policies.
-
-2. **Automated trajectory annotation and skill composition**  
-   - Uses a **vision-language model** to segment the demonstration trajectories into **skill segments** and **transit segments**;  
-   - Encodes object and robot states in a structured way for downstream skill reuse;  
-   - Greatly reduces the need for manual labeling.
-
-3. **Direct deployment of trained policies in the real world**  
-   - We evaluate on **six challenging real-world tasks**, including:
-     - Button pressing  
-     - Mouse placement  
-     - Drink placement  
-     - Tea pouring  
-     - Cup hanging  
-     - Object organizing  
-   - For each task, about **500 successful trajectories** are generated in simulation for training;  
-   - When deployed in the real world, the success rate of our method is **over 20% higher** than baselines such as MimicGen, which rely on more random skill composition.
-
-**Pipeline summary:**
-
-1. Collect a few expert demonstrations in the real world via teleoperation;  
-2. Use a vision-language model to segment trajectories into semantic skill segments and transit segments;  
-3. Randomize object poses and positions in simulation;  
-4. Use a **weighted penalty function** to stitch different skill segments into new trajectories;  
-5. Execute and validate these trajectories in simulation, keeping only successful ones as training data;  
-6. Train imitation learning policies on the generated dataset and deploy them back to real robots for evaluation.
-
----
-
-### Representative Work II: SkillComposer (first author, under review)
-
-My second main work is **SkillComposer: Automated Segmentation and Robot Skill Composition for Scalable Data Generation**, which can be viewed as a **predecessor** to AutoTrialGen, focusing more on the **skill composition strategy** itself.
-
-**Core idea:**
-
-- We design a **weighted penalty score** that combines:
-  - **Manipulability measures** (to avoid kinematic singularities);  
-  - **Relative pose costs** (to keep motions efficient and natural).  
-- When stitching skills, we select skill segments with **lower penalty scores** so that:
-  - The manipulator avoids singular configurations;  
-  - The resulting trajectories are less redundant and more robust.
-
-**Highlights:**
-
-- The framework realizes a **full pipeline in simulation**:  
-  data generation → policy training → policy deployment;  
-- It serves as a **feasibility study** of the idea that automatic skill segmentation and composition alone can generate usable training data in pure simulation;  
-- As illustrated in the original figures, executing skills in far-end regions of the workspace often pushes the robot toward singularities, while our method automatically selects better skill segments to avoid such problematic configurations.
-
----
-
-### Representative Work III: Humanoid/Legged Robot Odometry and Control (undergraduate work)
-
-During my undergraduate thesis, I focused on **legged robot odometry and motion control**, especially for humanoid robots.
-
-One representative work is:
-
-**Leg odometry for humanoid robots based on fusion of leg kinematics and IMU measurements**
-
-**Main contributions:**
-
-- Proposed an odometry framework that fuses **leg kinematics** and **IMU data**;  
-- Estimates the robot **center-of-mass (CoM) position and velocity**;  
-- Validated both in simulation and on real hardware:
-  - The terminal position error is within **1.56%** of the total walking distance;  
-  - The state estimation is accurate and robust.  
-
-This odometry approach is not limited to humanoid robots; it also generalizes to **quadruped and hexapod robots**, and we have already demonstrated its transferability to different robot platforms.
-
-Another part of my undergraduate work involves controlling a robotic arm via **forward and inverse kinematics** to reach desired poses and grasp QR-code-marked targets in a vision-guided manner.
-
----
-
-### Projects and Engineering Experience
-
-1. **Humanoid Robot for Power Grid Inspection (Jiangxi power grid project, ongoing)**  
-   - Responsible for **teleoperating an L20 dexterous hand** using a **Manus Prime 3 data glove**;  
-   - Implemented and debugged the **mapping from glove data (pose/joint information) to L20 joint space**;  
-   - The project is in its early stage; future work will integrate imitation learning and teleoperation to support complex inspection tasks.
-
-2. **Teleoperation of Manipulators and Force-feedback Robots for Live-line Operation**  
-   - Participated in several projects on live-line operation and power maintenance robots;  
-   - Used **force-feedback haptic devices** (e.g., Geomagic Touch) for teleoperating robotic arms;  
-   - Employed an **incremental control strategy**:
-     - The pose increments of the haptic device are added to the current end-effector pose of the robot, enabling intuitive control;  
-   - Communication is implemented via **UDP**:
-     - The master side renders the virtual robot and environment;  
-     - The slave side executes commands and streams back its state.
-
-3. **Teleoperation of a Three-arm Space Robot (with CASC’s Fifth Academy)**  
-   - Participated in teleoperation scheme design for a **three-arm space robot**;  
-   - Focused on multi-arm coordination, task allocation, and teleoperation interface design.
-
----
-
-If you are interested in collaboration on **imitation learning**, **teleoperation**, or **dexterous manipulation**, feel free to reach out!
