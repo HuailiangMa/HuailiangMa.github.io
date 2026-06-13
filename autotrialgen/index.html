@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AutoTrialGen</title>
+    <meta name="description" content="AutoTrialGen project page: automated robot data generation from few human demonstrations.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a class="brand" href="#">AutoTrialGen</a>
+        <div class="nav-links">
+          <a href="#framework">Framework</a>
+          <a href="#demo">Demo</a>
+          <a href="#results">Results</a>
+          <a href="#citation">Citation</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-inner">
+          <h1>
+            <span>AutoTrialGen: Automated Data Generation</span>
+            <span>from Few Human Demonstrations via Trajectory Annotation</span>
+            <span>and Simulation Trials</span>
+          </h1>
+          <p class="authors">Huailiang Ma, Aiguo Song, Mutian He, Yibing Yan, and Linhu Wei</p>
+          <p class="affiliation">Southeast University &nbsp;·&nbsp; Shanghai Innovation Institute</p>
+          <div class="actions">
+            <a class="button primary" href="assets/paper/AutoTrialGen.pdf">Paper</a>
+            <a class="button" href="#demo">Video</a>
+            <a class="button" href="#citation">BibTeX</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <video class="main-video" controls muted poster="assets/figures/overview.png">
+          <source src="assets/videos/overview.mp4" type="video/mp4">
+        </video>
+      </section>
+
+      <section class="section narrow">
+        <h2>Abstract</h2>
+        <p>
+          Imitation learning is a powerful paradigm for teaching robots complex manipulation skills, but it is often bottlenecked by the need for large-scale, human-collected datasets. AutoTrialGen is an automated framework that generates large and diverse datasets of successful simulated demonstrations through trial-and-error from only a few human demonstrations.
+        </p>
+        <p>
+          The framework leverages foundation models to decompose raw human demonstrations into reusable, object-centric skill primitives, then intelligently composes these primitives in simulation using a weighted manipulability selection mechanism. Policies trained on the sim-augmented data achieve stronger data efficiency and real-world manipulation performance than existing generation pipelines.
+        </p>
+      </section>
+
+      <section id="framework" class="section">
+        <h2>Framework Overview</h2>
+        <figure class="figure-card">
+          <img src="assets/figures/overview.png" alt="AutoTrialGen overview">
+          <figcaption>
+            AutoTrialGen starts from a few teleoperated demonstrations, decomposes them into reusable object-centric primitives, generates successful simulated trials, and trains policies for real-world deployment.
+          </figcaption>
+        </figure>
+
+        <div class="grid three">
+          <article>
+            <h3>Automatic Decomposition</h3>
+            <p>Vision-language models generate subtask termination discriminators and segment demonstrations into object-centric skill primitives.</p>
+          </article>
+          <article>
+            <h3>Real-to-Sim Transfer</h3>
+            <p>Digital twin scenes and reconstructed object assets enable randomized simulation trials with reusable skill trajectories.</p>
+          </article>
+          <article>
+            <h3>Weighted Skill Composition</h3>
+            <p>Candidate primitives are selected by balancing kinematic manipulability and transition efficiency, reducing singular and inefficient motions.</p>
+          </article>
+        </div>
+
+        <figure class="figure-card">
+          <img src="assets/figures/pipeline.png" alt="AutoTrialGen pipeline">
+          <figcaption>
+            The full pipeline combines VLM-assisted trajectory annotation, simulation-based data generation, and policy learning for real-world manipulation.
+          </figcaption>
+        </figure>
+      </section>
+
+      <section id="demo" class="section">
+        <h2>Demonstrations</h2>
+        <div class="video-grid">
+          <article>
+            <video controls muted preload="metadata">
+              <source src="assets/videos/dataset-generation-1.mp4" type="video/mp4">
+            </video>
+            <h3>Dataset Generation I</h3>
+          </article>
+          <article>
+            <video controls muted preload="metadata">
+              <source src="assets/videos/dataset-generation-2.mp4" type="video/mp4">
+            </video>
+            <h3>Dataset Generation II</h3>
+          </article>
+          <article>
+            <video controls muted preload="metadata">
+              <source src="assets/videos/beverage-placement.mp4" type="video/mp4">
+            </video>
+            <h3>Beverage Placement</h3>
+          </article>
+          <article>
+            <video controls muted preload="metadata">
+              <source src="assets/videos/cup-hanging.mp4" type="video/mp4">
+            </video>
+            <h3>Cup Hanging</h3>
+          </article>
+        </div>
+      </section>
+
+      <section id="results" class="section">
+        <h2>Experimental Results</h2>
+        <figure class="figure-card">
+          <img src="assets/figures/tasks.png" alt="Experimental tasks">
+          <figcaption>
+            Six manipulation tasks are evaluated in simulation and the real world: button pressing, mouse placement, cup hanging, beverage placement, storage-box organization, and tea pouring.
+          </figcaption>
+        </figure>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Task</th>
+                <th>MimicGen</th>
+                <th>AutoTrialGen</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Button pressing</td><td>80.0%</td><td>90.0%</td></tr>
+              <tr><td>Mouse placement</td><td>54.0%</td><td>88.0%</td></tr>
+              <tr><td>Cup hanging</td><td>62.0%</td><td>74.0%</td></tr>
+              <tr><td>Beverage placement</td><td>40.0%</td><td>64.0%</td></tr>
+              <tr><td>Storage box organization</td><td>42.0%</td><td>68.0%</td></tr>
+              <tr><td>Tea pouring</td><td>68.0%</td><td>86.0%</td></tr>
+              <tr class="average"><td>Average</td><td>57.7%</td><td>78.3%</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="grid two">
+          <figure class="figure-card">
+            <img src="assets/figures/selection.png" alt="Weighted manipulability selection">
+            <figcaption>Weighted manipulability selection filters unstable or inefficient candidates and selects better skill primitives.</figcaption>
+          </figure>
+          <figure class="figure-card">
+            <img src="assets/figures/data-scale.png" alt="Data scale results">
+            <figcaption>Policies trained with generated data improve with scale and can substitute costly human teleoperation data.</figcaption>
+          </figure>
+          <figure class="figure-card">
+            <img src="assets/figures/ablation.png" alt="Ablation results">
+            <figcaption>Ablation results show that manipulability and pose proximity both contribute to stronger task performance.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="citation" class="section narrow">
+        <h2>Citation</h2>
+        <pre><code>@article{ma2025autotrialgen,
+  title   = {AutoTrialGen: Automated Data Generation from Few Human Demonstrations via Trajectory Annotation and Simulation Trials},
+  author  = {Ma, Huailiang and Song, Aiguo and He, Mutian and Yan, Yibing and Wei, Linhu},
+  journal = {IEEE Robotics and Automation Letters},
+  year    = {2025}
+}</code></pre>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>AutoTrialGen project page. Built as a static website for paper presentation and demos.</p>
+    </footer>
+  </body>
+</html>

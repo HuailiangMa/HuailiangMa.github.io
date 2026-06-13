@@ -34,7 +34,7 @@ I received my Bachelor's degree from the **School of Control Science and Enginee
   <img src="/images/AutoTrialGen.jpg" alt="AutoTrialGen" style="width:220px; max-width:35%; border-radius:4px;">
   <p>
     <strong>Ma, H.</strong>, Song, A., He, M., Yan, Y., Li, M., Wei, L., et al.<br>
-    <em>AutoTrialGen: Automated Data Generation from Few Human Demonstrations via Trajectory Annotation and Simulation Trials.</em><br>
+    <a href="/autotrialgen/"><em>AutoTrialGen: Automated Data Generation from Few Human Demonstrations via Trajectory Annotation and Simulation Trials.</em></a><br>
     <strong>IEEE Robotics and Automation Letters (RA-L)</strong>, 2025. <strong>Accepted.</strong>
   </p>
 </div>

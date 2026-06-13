@@ -41,3 +41,20 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+body {
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.9)),
+    url("/images/homepage-background.jpg") center / cover fixed;
+}
+
+.masthead,
+.page__footer {
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px);
+}
+
+.page,
+.sidebar {
+  background-color: rgba(255, 255, 255, 0.88);
+}
