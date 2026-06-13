@@ -11,7 +11,7 @@ redirect_from:
 
 I am **Huailiang Ma**, a combined M.S.-Ph.D. student at **Southeast University**, jointly trained with **Shanghai Innovation Institute**. My research focuses on **embodied intelligence and robotics**, with recent interests in **world models**, **Vision-Language-Action (VLA) models**, robot data generation, and manipulation learning.
 
-I received my Bachelor's degree from the **School of Control Science and Engineering, Shandong University**. My previous work covered imitation learning, robotic teleoperation, humanoid robot odometry, force-feedback manipulation systems, and scalable data generation for robot learning.
+I received my Bachelor's degree from the **School of Control Science and Engineering, Shandong University**. My undergraduate advisor was **Prof. Guoteng Zhang**. My graduate advisors are **Prof. Aiguo Song** and **Prof. Lifeng Zhu**.
 
 ## Education
 
@@ -30,21 +30,41 @@ I received my Bachelor's degree from the **School of Control Science and Enginee
 
 ## Selected Publications
 
-1. **Ma, H.**, Song, A., He, M., Yan, Y., Li, M., Wei, L., et al.  
-   *AutoTrialGen: Automated Data Generation from Few Human Demonstrations via Trajectory Annotation and Simulation Trials.*  
-   **IEEE Robotics and Automation Letters (RA-L)**, 2025. **Accepted.**
+<div style="display:flex; gap:16px; align-items:flex-start; margin-bottom:18px;">
+  <img src="/images/AutoTrialGen.jpg" alt="AutoTrialGen" style="width:220px; max-width:35%; border-radius:4px;">
+  <p>
+    <strong>Ma, H.</strong>, Song, A., He, M., Yan, Y., Li, M., Wei, L., et al.<br>
+    <em>AutoTrialGen: Automated Data Generation from Few Human Demonstrations via Trajectory Annotation and Simulation Trials.</em><br>
+    <strong>IEEE Robotics and Automation Letters (RA-L)</strong>, 2025. <strong>Accepted.</strong>
+  </p>
+</div>
 
-2. **Ma, H.**, Song, A., Xu, B., et al.  
-   *SkillComposer: Automated Segmentation and Robot Skill Composition for Scalable Data Generation.*  
-   **International Conference on Bio-inspired System and Robotics (ICBSR 2025)**, 2025. **Accepted.**
+<div style="display:flex; gap:16px; align-items:flex-start; margin-bottom:18px;">
+  <img src="/images/SkillComposer.png" alt="SkillComposer" style="width:220px; max-width:35%; border-radius:4px;">
+  <p>
+    <strong>Ma, H.</strong>, Song, A., Xu, B., et al.<br>
+    <em>SkillComposer: Automated Segmentation and Robot Skill Composition for Scalable Data Generation.</em><br>
+    <strong>International Conference on Bio-inspired System and Robotics (ICBSR 2025)</strong>, 2025. <strong>Accepted.</strong>
+  </p>
+</div>
 
-3. **Ma, H.**, Song, A., Li, J., Zhang, G., et al.  
-   *Legged Odometry Based on Fusion of Leg Kinematics and IMU Information in a Humanoid Robot.*  
-   **Biomimetic Intelligence and Robotics**, 2024. **Accepted.**
+<div style="display:flex; gap:16px; align-items:flex-start; margin-bottom:18px;">
+  <img src="/images/Odometry.png" alt="Humanoid robot odometry" style="width:220px; max-width:35%; border-radius:4px;">
+  <p>
+    <strong>Ma, H.</strong>, Song, A., Li, J., Zhang, G., et al.<br>
+    <em>Legged Odometry Based on Fusion of Leg Kinematics and IMU Information in a Humanoid Robot.</em><br>
+    <strong>Biomimetic Intelligence and Robotics</strong>, 2024. <strong>Accepted.</strong>
+  </p>
+</div>
 
-4. He, M., Song, A., Yan, Y., **Ma, H.**, et al.  
-   *A Multimodal Shared Telerobotic System of Three-arm Space Robot for Extravehicular Activities.*  
-   **Proceedings of the 23rd IFAC Symposium on Automatic Control in Aerospace (ACA 2025)**, Harbin, China, 2025. **Accepted.**
+<div style="display:flex; gap:16px; align-items:flex-start; margin-bottom:18px;">
+  <img src="/images/Three_arms.jpg" alt="Three-arm space robot" style="width:220px; max-width:35%; border-radius:4px;">
+  <p>
+    He, M., Song, A., Yan, Y., <strong>Ma, H.</strong>, et al.<br>
+    <em>A Multimodal Shared Telerobotic System of Three-arm Space Robot for Extravehicular Activities.</em><br>
+    <strong>Proceedings of the 23rd IFAC Symposium on Automatic Control in Aerospace (ACA 2025)</strong>, Harbin, China, 2025. <strong>Accepted.</strong>
+  </p>
+</div>
 
 ## Academic Links
 
