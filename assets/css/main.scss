@@ -44,17 +44,24 @@
 
 body {
   background:
-    linear-gradient(rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.9)),
+    linear-gradient(rgba(255, 255, 255, 0.36), rgba(255, 255, 255, 0.52)),
     url("/images/homepage-background.jpg") center / cover fixed;
 }
 
 .masthead,
 .page__footer {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: transparent;
   backdrop-filter: blur(12px);
 }
 
 .page,
 .sidebar {
-  background-color: rgba(255, 255, 255, 0.88);
+  background-color: transparent;
+}
+
+.page__content,
+.author__content,
+.author__urls-wrapper,
+.author__urls {
+  text-shadow: 0 1px 10px rgba(255, 255, 255, 0.72);
 }
