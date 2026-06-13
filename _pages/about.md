@@ -199,21 +199,21 @@ redirect_from:
 <div class="personal-home">
   <section class="personal-hero">
     <div>
-      <p class="personal-kicker">Robotics · Imitation Learning · Teleoperation</p>
+      <p class="personal-kicker">Embodied AI · Robotics · World Models · VLA</p>
       <h1>Huailiang Ma</h1>
       <p class="personal-lede">
-        I am a Master's student at the School of Instrument Science and Engineering, Southeast University. My research focuses on imitation learning, robotic teleoperation, scalable robot data generation, and force-feedback manipulation systems. I am currently seeking a Ph.D. position in robotics.
+        I am a combined M.S.-Ph.D. student at Southeast University, jointly trained with Shanghai Innovation Institute. My research focuses on embodied intelligence and robotics, with recent interests in world models, Vision-Language-Action (VLA) models, robot data generation, and manipulation learning.
       </p>
       <div class="personal-actions">
         <a class="personal-button" href="mailto:huailiangma@163.com">Email Me</a>
-        <a class="personal-button secondary" href="https://scholar.google.com.hk/citations?hl=zh-CN&user=HsrhHWIAAAAJ">Google Scholar</a>
+        <a class="personal-button secondary" href="https://scholar.google.com.hk/citations?hl=zh-CN&user=HsrhHWIAAAAJ">Google Scholar Index</a>
         <a class="personal-button secondary" href="https://github.com/HuailiangMa">GitHub</a>
         <a class="personal-button secondary" href="/cv/">CV</a>
       </div>
     </div>
     <figure class="personal-portrait">
       <img src="/images/AutoTrialGen.jpg" alt="Robot manipulation data generation project preview">
-      <figcaption>Researching real-to-sim-to-real robot learning pipelines for manipulation, teleoperation, and dexterous robotics.</figcaption>
+      <figcaption>Researching embodied intelligence systems for robot learning, world modeling, VLA policies, and dexterous manipulation.</figcaption>
     </figure>
   </section>
 
@@ -235,16 +235,30 @@ redirect_from:
     </div>
   </section>
 
+  <section id="education" class="personal-section">
+    <h2>Education</h2>
+    <div class="personal-timeline">
+      <div class="timeline-row">
+        <strong>2024 - Present · Southeast University</strong>
+        <span>Combined M.S.-Ph.D. program, jointly trained with Shanghai Innovation Institute. Research direction: embodied intelligence and robotics, with recent work on world models and VLA.</span>
+      </div>
+      <div class="timeline-row">
+        <strong>2020 - 2024 · Shandong University</strong>
+        <span>Bachelor's degree from the School of Control Science and Engineering, majoring in Automation.</span>
+      </div>
+    </div>
+  </section>
+
   <section id="publications" class="personal-section">
-    <h2>Selected Publications & Submissions</h2>
+    <h2>Selected Publications</h2>
     <div class="paper-list">
       <article class="paper-item">
         <img src="/images/AutoTrialGen.jpg" alt="AutoTrialGen preview">
         <div>
           <h3>AutoTrialGen: Automated Data Generation from Few Human Demonstrations via Trajectory Annotation and Simulation Trials</h3>
           <p class="paper-meta"><strong>Ma, H.</strong>, Song, A., He, M., Yan, Y., Li, M., Wei, L., et al.</p>
-          <p class="paper-meta">Submitted to IEEE Robotics and Automation Letters (RA-L), 2025.</p>
-          <span class="paper-status">First author · Under review</span>
+          <p class="paper-meta">Accepted by IEEE Robotics and Automation Letters (RA-L), 2025.</p>
+          <span class="paper-status">First author · Accepted</span>
         </div>
       </article>
 
@@ -253,8 +267,8 @@ redirect_from:
         <div>
           <h3>SkillComposer: Automated Segmentation and Robot Skill Composition for Scalable Data Generation</h3>
           <p class="paper-meta"><strong>Ma, H.</strong>, Song, A., Xu, B., et al.</p>
-          <p class="paper-meta">Submitted to ICBSR 2025, Xishuangbanna, China, Dec 26-29, 2025.</p>
-          <span class="paper-status">First author · Under review</span>
+          <p class="paper-meta">Accepted by ICBSR 2025, Xishuangbanna, China, Dec 26-29, 2025.</p>
+          <span class="paper-status">First author · Accepted</span>
         </div>
       </article>
 
@@ -264,17 +278,7 @@ redirect_from:
           <h3>Legged Odometry Based on Fusion of Leg Kinematics and IMU Information in a Humanoid Robot</h3>
           <p class="paper-meta"><strong>Ma, H.</strong>, Song, A., Li, J., Zhang, G., et al.</p>
           <p class="paper-meta">Biomimetic Intelligence and Robotics, 2024.</p>
-          <span class="paper-status">First author · JCR Q1</span>
-        </div>
-      </article>
-
-      <article class="paper-item">
-        <img src="/images/人在回路强化学习.png" alt="Servo intervention loop preview">
-        <div>
-          <h3>A Servo Intervention Loop for Efficient Sampling in Reinforcement Learning</h3>
-          <p class="paper-meta">Li, P., Li, Y., <strong>Ma, H.</strong>, Song, A., et al.</p>
-          <p class="paper-meta">Submitted to Robotics: Science and Systems (RSS 2026).</p>
-          <span class="paper-status">Co-first author · Under review</span>
+          <span class="paper-status">First author · Accepted · JCR Q1</span>
         </div>
       </article>
 
@@ -357,7 +361,7 @@ redirect_from:
 
   <section id="contact" class="personal-section contact-band">
     <h2>Contact</h2>
-    <p>I welcome conversations about imitation learning, robot data generation, teleoperation, VLA models, reinforcement learning, and dexterous manipulation.</p>
-    <p>Email: <a href="mailto:huailiangma@163.com">huailiangma@163.com</a> · GitHub: <a href="https://github.com/HuailiangMa">HuailiangMa</a> · Google Scholar: <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=HsrhHWIAAAAJ">Profile</a></p>
+    <p>I welcome conversations about embodied intelligence, world models, VLA models, robot data generation, teleoperation, and dexterous manipulation.</p>
+    <p>Email: <a href="mailto:huailiangma@163.com">huailiangma@163.com</a> · GitHub: <a href="https://github.com/HuailiangMa">HuailiangMa</a> · Google Scholar Academic Index: <a href="https://scholar.google.com.hk/citations?hl=zh-CN&user=HsrhHWIAAAAJ">Profile</a></p>
   </section>
 </div>
