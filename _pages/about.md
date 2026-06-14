@@ -75,10 +75,16 @@ I received my Bachelor's degree from the **School of Control Science and Enginee
 ## Visitor Map
 
 <div class="visitor-map-card" style="width: 100%; max-width: 860px; padding: 18px; border: 1px solid rgba(148, 163, 184, 0.28); border-radius: 18px; background: rgba(255, 255, 255, 0.08); box-shadow: 0 16px 40px rgba(15, 23, 42, 0.12); backdrop-filter: blur(8px);">
-  <p style="margin: 0 0 12px; color: #475569;">A live world map showing approximate visitor locations.</p>
-  <iframe src="https://gitviewsmap.onrender.com/HuailiangMa" title="Visitor world map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="width: 100%; height: 420px; border: 0; border-radius: 14px; overflow: hidden;"></iframe>
+  <p style="margin: 0 0 12px; color: #475569;">A clean world map showing approximate visitor locations.</p>
+  <div style="display: flex; justify-content: center; width: 100%; overflow-x: auto; border-radius: 14px;">
+    <script id="_wauhmp">
+      var _wau = _wau || [];
+      _wau.push(["map", "hmpage2026", "hmp", "720", "360", "night", "cross-blue"]);
+    </script>
+    <script async src="//waust.at/m.js"></script>
+  </div>
   <p style="margin: 12px 0 0; font-size: 0.85em;">
-    <a href="https://gitviewsmap.onrender.com/HuailiangMa" target="_blank" rel="noopener">Open full visitor map</a>
+    <a href="https://whos.amung.us/stats/hmpage2026/" target="_blank" rel="noopener">Open visitor statistics</a>
   </p>
 </div>
 
