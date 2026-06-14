@@ -72,20 +72,13 @@ I received my Bachelor's degree from the **School of Control Science and Enginee
 - [GitHub](https://github.com/HuailiangMa)
 - [ORCID](https://orcid.org/my-orcid?orcid=0009-0005-5370-0101)
 
-## Visitor Map
+## Visitor Locations
 
 <div class="visitor-map-card" style="max-width: 560px; padding: 18px; border: 1px solid rgba(148, 163, 184, 0.28); border-radius: 18px; background: rgba(255, 255, 255, 0.08); box-shadow: 0 16px 40px rgba(15, 23, 42, 0.12); backdrop-filter: blur(8px);">
-  <p style="margin: 0 0 12px; color: #475569;">A small real-time map showing where recent visitors come from.</p>
-  <div style="display: flex; justify-content: center; overflow: hidden; border-radius: 14px;">
-    <script id="_wau_hmpage2026">
-      var _wau = _wau || [];
-      _wau.push(["map", "hmpage2026", "hmp", "520", "260", "night", "cross-blue"]);
-    </script>
-    <script async src="//waust.at/m.js"></script>
-  </div>
-  <noscript>
-    <p style="margin: 12px 0 0;">Visitor map requires JavaScript.</p>
-  </noscript>
+  <p style="margin: 0 0 12px; color: #475569;">A lightweight visitor counter showing where recent visitors come from.</p>
+  <a href="https://info.flagcounter.com/HuailiangMa" target="_blank" rel="noopener">
+    <img src="https://s01.flagcounter.com/count2/HuailiangMa/bg_FFFFFF/txt_000000/border_CCCCCC/columns_4/maxflags_24/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Visitor locations by country" style="max-width: 100%; border: 0; border-radius: 10px;">
+  </a>
 </div>
 
 ## Contact
