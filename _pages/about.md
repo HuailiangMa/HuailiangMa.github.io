@@ -57,10 +57,10 @@ I received my B.Eng. in Automation from the **School of Control Science and Engi
 </div>
 
 <div class="publication">
-  <img src="/images/CoRoVLA.png" alt="Overview of CoRoVLA unified embodied pre-training" loading="lazy">
+  <img src="/images/compact-robot-policies.png" alt="Overview of a robot learning framework" loading="lazy">
   <p>
     Anonymous authors.<br>
-    <em>CoRoVLA: Unified Embodied Pre-training for Building Compact and Robust Vision-Language-Action Models.</em><br>
+    <em>Compact and Robust Robot Policies.</em><br>
     <strong>Under review.</strong>
   </p>
 </div>
