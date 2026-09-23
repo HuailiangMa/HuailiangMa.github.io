@@ -103,6 +103,12 @@ body,
   font-size: 0.8em;
 }
 
+.page__footer-visitors {
+  margin-top: 0.75em;
+  color: #6b7280;
+  font-size: 12px;
+}
+
 @media (max-width: 600px) {
   .publication {
     flex-direction: column;
