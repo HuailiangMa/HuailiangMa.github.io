@@ -27,6 +27,7 @@
   {% assign seo_description = seo_description | markdownify | strip_html | strip_newlines | escape_once %}
 {% endif %}
 <meta name="description" content="{{ seo_description }}">
+<meta name="author" content="{{ site.name | escape_once }}">
 
 {% assign seo_author = page.author | default: page.author[0] | default: site.author[0] %}
 {% if seo_author %}
@@ -52,6 +53,7 @@
 
 {% if site.twitter.username %}
   <meta name="twitter:site" content="@{{ site.twitter.username | replace: "@", "" }}">
+{% endif %}
   <meta name="twitter:title" content="{{ page.seo_title | default: page.title | default: site.title | strip_html | strip_newlines | escape_once }}">
   <meta name="twitter:description" content="{{ seo_description }}">
   <meta name="twitter:url" content="{{ canonical_url }}">
@@ -69,7 +71,6 @@
   {% if seo_author_twitter %}
     <meta name="twitter:creator" content="@{{ seo_author_twitter }}">
   {% endif %}
-{% endif %}
 
 {% if site.facebook %}
   {% if site.facebook.publisher %}
@@ -120,11 +121,11 @@
 <meta property="og:title" content="{{ page.seo_title | default: page.title | default: site.title | strip_html | strip_newlines | escape_once }}">
 {% if page.date %}
   <meta property="og:type" content="article">
+{% else %}
+  <meta property="og:type" content="website">
 {% endif %}
-{% if page.excerpt %}
-  <meta property="og:description" name="description" content="{{ seo_description }}">
-{% elsif site.og_description %}
-  <meta property="og:description" name="description" content="{{ site.og_description }}">
+{% if seo_description %}
+  <meta property="og:description" content="{{ seo_description }}">
 {% endif %}
 {% if seo_url %}
   <meta property="og:url" content="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
@@ -147,3 +148,19 @@
   <meta property="og:image" content="{% if page.header.overlay_image contains "://" %}{{ page.header.overlay_image }}{% else %}{{ page.header.overlay_image | prepend: "/images/" | prepend: base_path }}{% endif %}">
 {% endif %}
 <!-- end Open Graph protocol -->
+
+{% if page.url == "/" %}
+<meta property="og:image" content="{{ seo_url }}/images/profile-avatar.png">
+<meta property="og:image:alt" content="Huailiang Ma">
+<meta name="twitter:image" content="{{ seo_url }}/images/profile-avatar.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "GitHub Pages - Huailiang Ma",
+  "alternateName": "Huailiang Ma",
+  "url": {{ seo_url | append: "/" | jsonify }},
+  "author": {"@type": "Person", "name": "Huailiang Ma", "url": {{ seo_url | append: "/" | jsonify }}}
+}
+</script>
+{% endif %}

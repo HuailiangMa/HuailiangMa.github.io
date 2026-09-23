@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://huailiangma.github.io/sitemap.xml

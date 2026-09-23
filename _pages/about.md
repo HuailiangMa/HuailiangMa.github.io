@@ -1,7 +1,8 @@
 ---
 permalink: /
 title: "Huailiang Ma"
-seo_title: "Huailiang Ma | Academic Homepage"
+seo_title: "GitHub Pages - Huailiang Ma"
+last_modified_at: 2026-09-23
 description: "Huailiang Ma is a Ph.D. student at Southeast University, jointly trained at Shanghai Innovation Institute. His research focuses on embodied intelligence, world models, and vision-language-action models."
 author_profile: true
 redirect_from:

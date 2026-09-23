@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Huailiang Ma"
 title_separator          : "-"
 name                     : &name "Huailiang Ma"
-description              : &description "Huailiang Ma | Academic Homepage. Research in embodied intelligence, world models, and vision-language-action models."
+description              : &description "Huailiang Ma's academic homepage. Ph.D. student at Southeast University, researching embodied intelligence, world models, and vision-language-action models."
 url                      : https://huailiangma.github.io
 baseurl                  : ""
 repository               : "HuailiangMa/HuailiangMa.github.io"
@@ -137,9 +137,12 @@ facebook:
 og_image                 :
 og_description           :
 social:
-  type                   :
-  name                   :
-  links: 
+  type                   : Person
+  name                   : "Huailiang Ma"
+  links:
+    - "https://github.com/HuailiangMa"
+    - "https://scholar.google.com.hk/citations?user=HsrhHWIAAAAJ"
+    - "https://orcid.org/0009-0005-5370-0101"
 
 # Analytics
 analytics:
