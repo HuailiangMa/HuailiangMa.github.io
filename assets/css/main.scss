@@ -13,7 +13,6 @@
 
     "themes",
     "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
 
     "include/mixins",
     "vendor/susy/susy",
@@ -42,26 +41,77 @@
     "vendor/font-awesome/brands"
 ;
 
-body {
-  background:
-    linear-gradient(rgba(255, 255, 255, 0.36), rgba(255, 255, 255, 0.52)),
-    url("/images/homepage-background.jpg") center / cover fixed;
+/* Keep the academic homepage white, including for dark OS preferences. */
+:root {
+  color-scheme: light;
+  --global-bg-color: #fff;
+  --global-footer-bg-color: #fff;
 }
 
+html,
+body,
 .masthead,
-.page__footer {
-  background-color: transparent;
-  backdrop-filter: blur(12px);
-}
-
+.page__footer,
 .page,
 .sidebar {
-  background-color: transparent;
+  background: #fff;
 }
 
-.page__content,
-.author__content,
-.author__urls-wrapper,
-.author__urls {
-  text-shadow: 0 1px 10px rgba(255, 255, 255, 0.72);
+.publication {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  margin-bottom: 18px;
+}
+
+.publication > img {
+  width: 220px;
+  max-width: 35%;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+
+.publication > p {
+  min-width: 0;
+  margin: 0;
+}
+
+.publication-note {
+  font-size: 0.85em;
+}
+
+.page__content h2 {
+  scroll-margin-top: 85px;
+}
+
+.visitor-map {
+  max-width: 720px;
+  margin: 1em auto;
+  text-align: center;
+}
+
+.visitor-map img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.visitor-map figcaption {
+  margin-top: 0.75em;
+  font-size: 0.8em;
+}
+
+@media (max-width: 600px) {
+  .publication {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 28px;
+  }
+
+  .publication > img {
+    width: 100%;
+    max-width: 320px;
+  }
 }

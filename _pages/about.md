@@ -1,6 +1,8 @@
 ---
 permalink: /
-title: "About"
+title: "Huailiang Ma"
+seo_title: "Huailiang Ma | Academic Homepage"
+description: "Huailiang Ma is a Ph.D. student at Southeast University, jointly trained at Shanghai Innovation Institute. His research focuses on embodied intelligence, world models, and vision-language-action models."
 author_profile: true
 redirect_from:
   - /about/
@@ -9,16 +11,21 @@ redirect_from:
 
 ## Biography
 
-I am **Huailiang Ma**, a combined M.S.-Ph.D. student at **Southeast University**, jointly trained with **Shanghai Innovation Institute**. My research focuses on **embodied intelligence and robotics**, with recent interests in **world models**, **Vision-Language-Action (VLA) models**, robot data generation, and manipulation learning.
+I am **Huailiang Ma**, a student in the combined M.S./Ph.D. program at **Southeast University**, with joint research training at **Shanghai Innovation Institute**. My research focuses on **embodied intelligence and robot learning**, particularly **world models**, **vision-language-action (VLA) models**, robot data generation, and robotic manipulation.
 
-I received my Bachelor's degree from the **School of Control Science and Engineering, Shandong University**. My undergraduate advisor was **Prof. Guoteng Zhang**. My graduate advisors are **Prof. Aiguo Song** and **Prof. Lifeng Zhu**.
+I received my B.Eng. in Automation from the **School of Control Science and Engineering at Shandong University**, where I was advised by **Prof. Guoteng Zhang**. My graduate research is advised by **Prof. Aiguo Song** and **Prof. Lifeng Zhu**.
 
 ## Education
 
-- **2024 - Present**, Combined M.S.-Ph.D. student, Southeast University  
-  Jointly trained with Shanghai Innovation Institute. Research direction: embodied intelligence and robotics.
+- **2024 - Present**, Combined M.S./Ph.D. program, Southeast University<br>
+  Joint research training at Shanghai Innovation Institute, focusing on embodied intelligence and robotics.
 - **2020 - 2024**, B.Eng., Shandong University  
-  School of Control Science and Engineering, majoring in Automation.
+  Automation, School of Control Science and Engineering.
+
+## Experience
+
+- **March - August 2026**, Research Intern, **TARS Robotics (它石智航)**<br>
+  Worked on world action models (WAMs) and vision-language-action (VLA) models, with a focus on action-free egocentric video pre-training for manipulation-centric latent actions.
 
 ## Research Interests
 
@@ -30,8 +37,35 @@ I received my Bachelor's degree from the **School of Control Science and Enginee
 
 ## Selected Publications
 
-<div style="display:flex; gap:16px; align-items:flex-start; margin-bottom:18px;">
-  <img src="/images/AutoTrialGen.jpg" alt="AutoTrialGen" style="width:220px; max-width:35%; border-radius:4px;">
+<div class="publication">
+  <img src="/images/ObjDream.png" alt="Overview of the ObjDream architecture" loading="lazy">
+  <p>
+    Anonymous authors.<br>
+    <em>ObjDream: Guiding Vision-Language-Action Models with Object-Level Understanding and Future State Prediction.</em><br>
+    <strong>Under review.</strong>
+  </p>
+</div>
+
+<div class="publication">
+  <img src="/images/LAWA.png" alt="Overview of the LAWA architecture" loading="lazy">
+  <p>
+    Li, X.<sup>*</sup>, Zheng, Y.<sup>*</sup>, Gu, S.<sup>*</sup>, <strong>Ma, H.<sup>*</sup></strong>, Yu, F., Zheng, Y., et al.<br>
+    <em>Latent Action as Intention Enables Efficient Future Imagination for World Action Models.</em><br>
+    <strong>Under review.</strong> <span class="publication-note"><sup>*</sup>Equal contribution.</span>
+  </p>
+</div>
+
+<div class="publication">
+  <img src="/images/CoRoVLA.png" alt="Overview of CoRoVLA unified embodied pre-training" loading="lazy">
+  <p>
+    Anonymous authors.<br>
+    <em>CoRoVLA: Unified Embodied Pre-training for Building Compact and Robust Vision-Language-Action Models.</em><br>
+    <strong>Under review.</strong>
+  </p>
+</div>
+
+<div class="publication">
+  <img src="/images/AutoTrialGen.jpg" alt="AutoTrialGen" loading="lazy">
   <p>
     <strong>Ma, H.</strong>, Song, A., He, M., Yan, Y., Li, M., Wei, L., et al.<br>
     <a href="/autotrialgen/"><em>AutoTrialGen: Automated Data Generation from Few Human Demonstrations via Trajectory Annotation and Simulation Trials.</em></a><br>
@@ -39,8 +73,8 @@ I received my Bachelor's degree from the **School of Control Science and Enginee
   </p>
 </div>
 
-<div style="display:flex; gap:16px; align-items:flex-start; margin-bottom:18px;">
-  <img src="/images/SkillComposer.png" alt="SkillComposer" style="width:220px; max-width:35%; border-radius:4px;">
+<div class="publication">
+  <img src="/images/SkillComposer.png" alt="SkillComposer" loading="lazy">
   <p>
     <strong>Ma, H.</strong>, Song, A., Xu, B., et al.<br>
     <em>SkillComposer: Automated Segmentation and Robot Skill Composition for Scalable Data Generation.</em><br>
@@ -48,8 +82,8 @@ I received my Bachelor's degree from the **School of Control Science and Enginee
   </p>
 </div>
 
-<div style="display:flex; gap:16px; align-items:flex-start; margin-bottom:18px;">
-  <img src="/images/Odometry.png" alt="Humanoid robot odometry" style="width:220px; max-width:35%; border-radius:4px;">
+<div class="publication">
+  <img src="/images/Odometry.png" alt="Humanoid robot odometry" loading="lazy">
   <p>
     <strong>Ma, H.</strong>, Song, A., Li, J., Zhang, G., et al.<br>
     <em>Legged Odometry Based on Fusion of Leg Kinematics and IMU Information in a Humanoid Robot.</em><br>
@@ -57,8 +91,8 @@ I received my Bachelor's degree from the **School of Control Science and Enginee
   </p>
 </div>
 
-<div style="display:flex; gap:16px; align-items:flex-start; margin-bottom:18px;">
-  <img src="/images/Three_arms.jpg" alt="Three-arm space robot" style="width:220px; max-width:35%; border-radius:4px;">
+<div class="publication">
+  <img src="/images/Three_arms.jpg" alt="Three-arm space robot" loading="lazy">
   <p>
     He, M., Song, A., Yan, Y., <strong>Ma, H.</strong>, et al.<br>
     <em>A Multimodal Shared Telerobotic System of Three-arm Space Robot for Extravehicular Activities.</em><br>
@@ -74,22 +108,15 @@ I received my Bachelor's degree from the **School of Control Science and Enginee
 
 ## Visitor Map
 
-<div class="visitor-map-card" style="width: 100%; max-width: 860px; padding: 18px; border: 1px solid rgba(148, 163, 184, 0.28); border-radius: 18px; background: rgba(255, 255, 255, 0.08); box-shadow: 0 16px 40px rgba(15, 23, 42, 0.12); backdrop-filter: blur(8px);">
-  <p style="margin: 0 0 12px; color: #475569;">A clean world map showing approximate visitor locations.</p>
-  <div style="display: flex; justify-content: center; width: 100%; overflow-x: auto; border-radius: 14px;">
-    <script id="_wauhmp">
-      var _wau = _wau || [];
-      _wau.push(["map", "hmpage2026", "hmp", "720", "360", "night", "cross-blue"]);
-    </script>
-    <script async src="//waust.at/m.js"></script>
-  </div>
-  <p style="margin: 12px 0 0; font-size: 0.85em;">
-    <a href="https://whos.amung.us/stats/hmpage2026/" target="_blank" rel="noopener">Open visitor statistics</a>
-  </p>
-</div>
+<figure class="visitor-map">
+  <a href="https://info.flagcounter.com/lVkR" target="_blank" rel="noopener noreferrer">
+    <img src="https://s01.flagcounter.com/map/lVkR/size_l/txt_000000/border_FFFFFF/pageviews_1/viewers_0/flags_0/" alt="World map of visitor countries. Open visitor statistics for country details." decoding="async">
+  </a>
+  <figcaption><a href="https://info.flagcounter.com/lVkR" target="_blank" rel="noopener noreferrer">Visitor countries and statistics</a></figcaption>
+</figure>
 
 ## Contact
 
-I welcome conversations about embodied intelligence, world models, VLA models, robot data generation, teleoperation, and dexterous manipulation.
+I welcome opportunities to discuss and collaborate on embodied intelligence, world models, VLA models, robot data generation, teleoperation, and dexterous manipulation.
 
 Email: [huailiangma@163.com](mailto:huailiangma@163.com)

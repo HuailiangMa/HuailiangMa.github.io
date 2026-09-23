@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Personal Homepage"
+title                    : "Huailiang Ma"
 title_separator          : "-"
 name                     : &name "Huailiang Ma"
-description              : &description "Personal academic homepage"
+description              : &description "Huailiang Ma | Academic Homepage. Research in embodied intelligence, world models, and vision-language-action models."
 url                      : https://huailiangma.github.io
 baseurl                  : ""
 repository               : "HuailiangMa/HuailiangMa.github.io"
@@ -22,7 +22,7 @@ author:
   avatar           : "profile-avatar.png"
   name             : "Huailiang Ma"
   pronouns         :
-  bio              : "Ph.D. student at Southeast University. Research in embodied intelligence, world models, VLA, and robotics."
+  bio              : "Ph.D. student at Southeast University, studying embodied intelligence, world models, and vision-language-action models."
   location         : "Nanjing, China"
   employer         : "Southeast University"
   uri              :
