@@ -2,7 +2,7 @@
 permalink: /
 title: "Huailiang Ma"
 seo_title: "GitHub Pages - Huailiang Ma"
-last_modified_at: 2026-09-23
+last_modified_at: 2026-09-24
 description: "Huailiang Ma is a Ph.D. student at Southeast University, jointly trained at Shanghai Innovation Institute. His research focuses on embodied intelligence, world models, and vision-language-action models."
 author_profile: true
 redirect_from:
@@ -22,11 +22,6 @@ I received my B.Eng. in Automation from the **School of Control Science and Engi
   Joint research training at Shanghai Innovation Institute, focusing on embodied intelligence and robotics.
 - **2020 - 2024**, B.Eng., Shandong University  
   Automation, School of Control Science and Engineering.
-
-## Experience
-
-- **March - August 2026**, Research Intern, **TARS Robotics (它石智航)**<br>
-  Worked on world action models (WAMs) and vision-language-action (VLA) models, with a focus on action-free egocentric video pre-training for manipulation-centric latent actions.
 
 ## Research Interests
 
