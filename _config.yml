@@ -10,6 +10,7 @@
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
 title                    : "Huailiang Ma"
+masthead_title           : "Personal Page"
 title_separator          : "-"
 name                     : &name "Huailiang Ma"
 description              : &description "Huailiang Ma's academic homepage. Ph.D. student at Southeast University, researching embodied intelligence, world models, and vision-language-action models."

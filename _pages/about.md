@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Huailiang Ma"
+title: "Homepage"
 seo_title: "GitHub Pages - Huailiang Ma"
 last_modified_at: 2026-09-26
 description: "Huailiang Ma is a Ph.D. student at Southeast University, jointly trained at Shanghai Innovation Institute. His research focuses on embodied intelligence, world models, and vision-language-action models."
@@ -10,18 +10,18 @@ redirect_from:
   - /about.html
 ---
 
+<div class="homepage-intro" markdown="1">
+
 ## Biography
 
 I am **Huailiang Ma**, a student in the combined M.S./Ph.D. program at **Southeast University**, with joint research training at **Shanghai Innovation Institute**. My research focuses on **embodied intelligence and robot learning**, particularly **world models**, **vision-language-action (VLA) models**, robot data generation, and robotic manipulation.
 
-I received my B.Eng. in Automation from the **School of Control Science and Engineering at Shandong University**, where I was advised by **Prof. Guoteng Zhang**. My graduate research is advised by **Prof. Aiguo Song** and **Prof. Lifeng Zhu**.
+I received my B.Eng. in Automation from the **School of Control Science and Engineering at Shandong University**, where I was advised by **Prof. Guoteng Zhang**. My graduate advisors are **Prof. Aiguo Song** and **Prof. Lifeng Zhu**. I also work with the research team of **Jianhua Sun** and **Cewu Lu** at **Shanghai Jiao Tong University**.
 
 ## Education
 
-- **2024 - Present**, Combined M.S./Ph.D. program, Southeast University<br>
-  Joint research training at Shanghai Innovation Institute, focusing on embodied intelligence and robotics.
-- **2020 - 2024**, B.Eng., Shandong University  
-  Automation, School of Control Science and Engineering.
+- **2024 - Present**, Southeast University & Shanghai Innovation Institute
+- **2020 - 2024**, Shandong University
 
 ## Research Interests
 
@@ -30,6 +30,8 @@ I received my B.Eng. in Automation from the **School of Control Science and Engi
 - Imitation learning and robot data generation
 - Robotic teleoperation and dexterous manipulation
 - Humanoid robot odometry and control
+
+</div>
 
 ## Selected Publications
 
