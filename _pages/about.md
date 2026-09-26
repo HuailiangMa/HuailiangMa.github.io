@@ -67,7 +67,7 @@ I received my B.Eng. in Automation from the **School of Control Science and Engi
   <p>
     <strong>Ma, H.</strong>, Song, A., He, M., Yan, Y., Li, M., Wei, L., et al.<br>
     <a href="/autotrialgen/"><em>AutoTrialGen: Automated Data Generation from Few Human Demonstrations via Trajectory Annotation and Simulation Trials.</em></a><br>
-    <strong>IEEE Robotics and Automation Letters (RA-L)</strong>, 2025. <strong>Accepted.</strong>
+    <strong>IEEE Robotics and Automation Letters (RA-L)</strong>, 2026. <strong>Accepted.</strong>
   </p>
 </div>
 
@@ -76,7 +76,7 @@ I received my B.Eng. in Automation from the **School of Control Science and Engi
   <p>
     <strong>Ma, H.</strong>, Song, A., Xu, B., et al.<br>
     <em>SkillComposer: Automated Segmentation and Robot Skill Composition for Scalable Data Generation.</em><br>
-    <strong>International Conference on Bio-inspired System and Robotics (ICBSR 2025)</strong>, 2025. <strong>Accepted.</strong>
+    <strong>International Conference on Bio-inspired System and Robotics (ICBSR 2026)</strong>, 2026. <strong>Accepted.</strong>
   </p>
 </div>
 
@@ -85,7 +85,7 @@ I received my B.Eng. in Automation from the **School of Control Science and Engi
   <p>
     <strong>Ma, H.</strong>, Song, A., Li, J., Zhang, G., et al.<br>
     <em>Legged Odometry Based on Fusion of Leg Kinematics and IMU Information in a Humanoid Robot.</em><br>
-    <strong>Biomimetic Intelligence and Robotics</strong>, 2024. <strong>Accepted.</strong>
+    <strong>Biomimetic Intelligence and Robotics</strong>, 2025. <strong>Accepted.</strong>
   </p>
 </div>
 
