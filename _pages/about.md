@@ -34,7 +34,7 @@ I received my B.Eng. in Automation from the **School of Control Science and Engi
 ## Selected Publications
 
 <div class="publication">
-  <img src="/images/ofp-vla.png" alt="Overview of the OFP-VLA architecture" loading="lazy">
+  <img src="/images/ofp-vla.png?v=20260926-concept" alt="AI-generated conceptual illustration of robot manipulation" title="AI-generated concept illustration" loading="lazy">
   <p>
     Anonymous authors.<br>
     <em>OFP-VLA.</em><br>
@@ -52,7 +52,7 @@ I received my B.Eng. in Automation from the **School of Control Science and Engi
 </div>
 
 <div class="publication">
-  <img src="/images/compact-robot-policies.png" alt="Overview of a robot learning framework" loading="lazy">
+  <img src="/images/compact-robot-policies.png?v=20260926-concept" alt="AI-generated conceptual illustration of robust robot control" title="AI-generated concept illustration" loading="lazy">
   <p>
     Anonymous authors.<br>
     <em>Compact and Robust Robot Policies.</em><br>
