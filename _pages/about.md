@@ -20,8 +20,8 @@ I received my B.Eng. in Automation from the **School of Control Science and Engi
 
 ## Education
 
-- **2024 - Present**, Southeast University & Shanghai Innovation Institute
-- **2020 - 2024**, Shandong University
+- **2024 - Present**, Ph.D. Student, Southeast University & Shanghai Innovation Institute
+- **2020 - 2024**, Bachelor of Engineering in Automation, Shandong University
 
 ## Research Interests
 
