@@ -90,14 +90,3 @@ fetch('./media.json').then(response => {
   });
   render();
 }).catch(() => { status.textContent = 'Videos are temporarily unavailable.'; });
-
-document.querySelector('#copy-citation').addEventListener('click', async event => {
-  const button = event.currentTarget;
-  try {
-    await navigator.clipboard.writeText(document.querySelector('#bibtex').textContent);
-    button.textContent = 'Copied';
-    window.setTimeout(() => { button.textContent = 'Copy BibTeX'; }, 1800);
-  } catch {
-    button.textContent = 'Select text to copy';
-  }
-});
