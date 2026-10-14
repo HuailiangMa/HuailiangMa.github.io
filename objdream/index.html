@@ -54,12 +54,12 @@
     </section>
 
     <section class="section shell" id="abstract">
-      <div class="section-heading"><span class="section-index">01</span><h2>Abstract</h2></div>
+      <div class="section-heading"><span class="section-index">01 / Abstract</span><h2>Abstract</h2></div>
       <div class="prose"><p>Vision-language-action (VLA) models have emerged as a powerful paradigm for robotic manipulation, enabling robots to generate actions from visual observations and language instructions. However, most existing VLA models still operate on image-level visual representations inherited from pretrained vision-language backbones, while lacking fine-grained object understanding for manipulation. As a result, their robustness can degrade under out-of-distribution object layouts, clutter, and background variations. To address these limitations, we introduce ObjDream, an object-centric VLA framework centered on object-level understanding and future object state prediction. ObjDream uses a spatio-temporal object encoder to organize visual observations into temporal object slots, where persistent object identity and dynamic object state are represented through separate channels. These structured object representations are inserted into the token sequence of the vision-language model (VLM), where identity-guided routing modulates VLM attention to the corresponding object tokens. In addition, an action-conditioned object dynamics module predicts compact future object states relevant to manipulation during training, explicitly supervising object state evolution under robot actions without requiring future prediction at inference. Experiments on LIBERO, LIBERO-Plus, and RoboTwin 2.0 show that ObjDream improves generalization under diverse distribution shifts and scene perturbations. Real-world robot experiments further demonstrate that ObjDream transfers to physical manipulation settings with novel object arrangements and background changes.</p></div>
     </section>
 
     <section class="section shell" id="framework">
-      <div class="section-heading"><span class="section-index">02</span><h2>Method overview</h2></div>
+      <div class="section-heading"><span class="section-index">02 / Method</span><h2>Method overview</h2></div>
       <figure class="framework-figure"><a href="./assets/framework.png" target="_blank" rel="noopener" aria-label="Open the ObjDream framework figure at full size"><img src="./assets/framework.png" width="2159" height="1054" alt="ObjDream framework with an object encoder, object-level dynamics module, VLM backbone, and action expert." loading="lazy"></a><figcaption>ObjDream integrates object encoding, future object state supervision, and flow-matching action generation. Open the figure to see the details.</figcaption></figure>
       <div class="method-grid">
         <article><span class="method-number">01</span><h3>Factorized object slots</h3><p>The spatio-temporal encoder separates persistent object identity from time-varying state and tracks slot validity.</p></article>
@@ -69,7 +69,7 @@
     </section>
 
     <section class="section shell" id="demos">
-      <div class="section-heading"><span class="section-index">03</span><h2>Real-world demonstrations</h2></div>
+      <div class="section-heading"><span class="section-index">03 / Demonstrations</span><h2>Real-world demonstrations</h2></div>
       <p class="section-lead">Browse all supplied clips from ObjDream, π0.5, and ControlVLA across four manipulation tasks. The labels describe each recorded rollout; the clips are examples rather than the trial set used to calculate aggregate success rates.</p>
       <div class="gallery-toolbar" aria-label="Filter demonstration videos">
         <div class="model-filters" role="group" aria-label="Model">
@@ -89,7 +89,7 @@
     </section>
 
     <section class="section shell" id="results">
-      <div class="section-heading"><span class="section-index">04</span><h2>Results</h2></div>
+      <div class="section-heading"><span class="section-index">04 / Results</span><h2>Results</h2></div>
       <p class="section-lead">Evaluations cover LIBERO, LIBERO-Plus, a fixed eight-task subset of RoboTwin 2.0, and four real-world manipulation tasks.</p>
       <div class="metrics-grid" aria-label="Key reported results">
         <div class="metric"><strong>98.6<span>%</span></strong><span>LIBERO average</span></div>
