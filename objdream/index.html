@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="https://huailiangma.github.io/objdream/">
+  <meta property="og:url" content="https://huailiangma.github.io/objdream/">
+  <meta name="theme-color" content="#f7f9fc">
+  <meta name="description" content="ObjDream: object-level understanding and future state prediction for robust vision-language-action models. Research project page.">
+  <title>ObjDream — Project Page</title>
+
+  <meta name="citation_title" content="ObjDream: Guiding Vision-Language-Action Models with Object-Level Understanding and Future State Prediction">
+  <meta name="citation_author" content="Huailiang Ma">
+  <meta name="citation_author" content="Yuxuan Li">
+  <meta name="citation_author" content="Ziyi Zhao">
+  <meta name="citation_author" content="Xinkai Wang">
+  <meta name="citation_author" content="Mingyu Li">
+  <meta name="citation_author" content="Xinyu Guo">
+  <meta name="citation_author" content="Lifeng Zhu">
+  <meta name="citation_author" content="Aiguo Song">
+  <meta name="citation_author" content="Cewu Lu">
+  <meta name="citation_author" content="Jianhua Sun">
+  <meta name="citation_pdf_url" content="https://huailiangma.github.io/objdream/assets/objdream-paper.pdf">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%231a4b99'/%3E%3Ccircle cx='25' cy='32' r='12' fill='%23ffffff'/%3E%3Ccircle cx='41' cy='32' r='12' fill='%2387bfff'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="ObjDream home"><span class="brand-mark" aria-hidden="true"><i></i><i></i></span>ObjDream</a>
+      <nav aria-label="Main navigation">
+        <a href="#abstract">Abstract</a>
+        <a href="#framework">Framework</a>
+        <a href="#demos">Demos</a>
+        <a href="#results">Results</a>
+        <a href="#citation">Citation</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero shell">
+      <p class="eyebrow">Research project · Preprint</p>
+      <h1>ObjDream</h1>
+      <p class="hero-subtitle">Guiding Vision-Language-Action Models with Object-Level Understanding and Future State Prediction</p>
+      <div class="hero-authors" aria-label="Authors">
+        <span>Huailiang Ma<sup>1,2</sup></span>
+        <span>Yuxuan Li<sup>3</sup></span>
+        <span>Ziyi Zhao<sup>1,2</sup></span>
+        <span>Xinkai Wang<sup>1,2</sup></span>
+        <span>Mingyu Li<sup>1</sup></span>
+        <span>Xinyu Guo<sup>4</sup></span>
+        <span>Lifeng Zhu<sup>1</sup></span>
+        <span>Aiguo Song<sup>1</sup></span>
+        <span>Cewu Lu<sup>2,3</sup></span>
+        <span>Jianhua Sun<sup>2,3,*</sup></span>
+      </div>
+      <div class="hero-affiliations" aria-label="Affiliations">
+        <span><sup>1</sup>Southeast University</span>
+        <span><sup>2</sup>Shanghai Innovation Institute</span>
+        <span><sup>3</sup>Shanghai Jiao Tong University</span>
+        <span><sup>4</sup>Institute of Automation, Chinese Academy of Sciences</span>
+      </div>
+      <p class="corresponding-author"><sup>*</sup> Corresponding author: Jianhua Sun</p>
+      <div class="hero-links">
+        <a class="button primary" href="./assets/objdream-paper.pdf" target="_blank" rel="noopener">Paper <span aria-hidden="true">↗</span></a>
+        <span class="button secondary coming-soon" role="link" aria-disabled="true" title="Code will be released soon">Code <span>coming soon</span></span>
+      </div>
+      <div class="hero-visual"><a href="./assets/overview.png" target="_blank" rel="noopener" aria-label="Open the ObjDream overview figure at full size"><img src="./assets/overview.png" width="2159" height="944" alt="Comparison between image-level VLA representations and ObjDream's object-level representations, with benchmark results." fetchpriority="high"></a></div>
+    </section>
+
+    <section class="section shell" id="abstract">
+      <div class="section-heading"><span class="section-index">01 / Abstract</span><h2>Robust manipulation starts with objects.</h2></div>
+      <div class="prose"><p>Vision-language-action (VLA) models have emerged as a powerful paradigm for robotic manipulation, enabling robots to generate actions from visual observations and language instructions. However, most existing VLA models still operate on image-level visual representations inherited from pretrained vision-language backbones, while lacking fine-grained object understanding for manipulation. As a result, their robustness can degrade under out-of-distribution object layouts, clutter, and background variations. To address these limitations, we introduce ObjDream, an object-centric VLA framework centered on object-level understanding and future object state prediction. ObjDream uses a spatio-temporal object encoder to organize visual observations into temporal object slots, where persistent object identity and dynamic object state are represented through separate channels. These structured object representations are inserted into the token sequence of the vision-language model (VLM), where identity-guided routing modulates VLM attention to the corresponding object tokens. In addition, an action-conditioned object dynamics module predicts compact future object states relevant to manipulation during training, explicitly supervising object state evolution under robot actions without requiring future prediction at inference. Experiments on LIBERO, LIBERO-Plus, and RoboTwin 2.0 show that ObjDream improves generalization under diverse distribution shifts and scene perturbations. Real-world robot experiments further demonstrate that ObjDream transfers to physical manipulation settings with novel object arrangements and background changes.</p></div>
+    </section>
+
+    <section class="section shell" id="framework">
+      <div class="section-heading"><span class="section-index">02 / Framework</span><h2>From object structure to action.</h2></div>
+      <figure class="framework-figure"><a href="./assets/framework.png" target="_blank" rel="noopener" aria-label="Open the ObjDream framework figure at full size"><img src="./assets/framework.png" width="2159" height="1054" alt="ObjDream framework with an object encoder, object-level dynamics module, VLM backbone, and action expert." loading="lazy"></a><figcaption>ObjDream integrates object encoding, future object state supervision, and flow-matching action generation. Open the figure to see the details.</figcaption></figure>
+      <div class="method-grid">
+        <article><span class="method-number">01</span><h3>Factorized object slots</h3><p>The spatio-temporal encoder separates persistent object identity from time-varying state and tracks slot validity.</p></article>
+        <article><span class="method-number">02</span><h3>Identity-guided routing</h3><p>Object representations enter the VLM token sequence, where identity cues guide attention to relevant objects.</p></article>
+        <article><span class="method-number">03</span><h3>Future-state supervision</h3><p>An action-conditioned dynamics module predicts object states during training, while inference stays direct.</p></article>
+      </div>
+    </section>
+
+    <section class="section shell" id="demos">
+      <div class="section-heading"><span class="section-index">03 / Demonstrations</span><h2>Real-robot rollouts.</h2></div>
+      <p class="section-lead">Browse all supplied clips from ObjDream, π0.5, and ControlVLA across four manipulation tasks. The labels describe each recorded rollout; the clips are examples rather than the trial set used to calculate aggregate success rates.</p>
+      <div class="gallery-toolbar" aria-label="Filter demonstration videos">
+        <div class="model-filters" role="group" aria-label="Model">
+          <button type="button" class="filter-chip active" data-model="all" aria-pressed="true">All models</button>
+          <button type="button" class="filter-chip" data-model="objdream" aria-pressed="false">ObjDream</button>
+          <button type="button" class="filter-chip" data-model="pi0.5" aria-pressed="false">π0.5</button>
+          <button type="button" class="filter-chip" data-model="controlVLA" aria-pressed="false">ControlVLA</button>
+        </div>
+        <div class="select-filters">
+          <label>Task <select id="task-filter"><option value="all">All tasks</option><option value="button">Button pressing</option><option value="block">Block pick-and-place</option><option value="fruit">Two-fruit placement</option><option value="sweeping">Tabletop sweeping</option></select></label>
+          <label>Setting <select id="setting-filter"><option value="all">All settings</option><option value="Easy">Easy</option><option value="Hard">Hard</option></select></label>
+          <label>Outcome <select id="outcome-filter"><option value="all">Both outcomes</option><option value="Success">Success</option><option value="Failure">Failure</option></select></label>
+        </div>
+      </div>
+      <div class="gallery-status" id="gallery-status" role="status">Loading videos…</div>
+      <div class="video-grid" id="video-grid"></div>
+    </section>
+
+    <section class="section shell" id="results">
+      <div class="section-heading"><span class="section-index">04 / Results</span><h2>Robustness across benchmarks and the real world.</h2></div>
+      <p class="section-lead">Evaluations cover LIBERO, LIBERO-Plus, a fixed eight-task subset of RoboTwin 2.0, and four real-world manipulation tasks.</p>
+      <div class="metrics-grid" aria-label="Key reported results">
+        <div class="metric"><strong>98.6<span>%</span></strong><span>LIBERO average</span></div>
+        <div class="metric"><strong>84.4<span>%</span></strong><span>LIBERO-Plus overall</span></div>
+        <div class="metric"><strong>74<span>%</span></strong><span>Real robot · in distribution</span></div>
+        <div class="metric"><strong>55<span>%</span></strong><span>Real robot · out of distribution</span></div>
+      </div>
+      <div class="results-panel">
+        <div class="results-copy"><h3>Real-robot success rates</h3><p>Four tasks: button pressing, block pick-and-place, two-fruit placement, and tabletop sweeping. Values are the average success rates reported in Table 3 of the paper.</p><p class="results-note">Each method was adapted with the same task demonstrations. The out-of-distribution setting uses changed object arrangements and backgrounds without additional fine-tuning.</p></div>
+        <div class="comparison" role="img" aria-label="In distribution success: ObjDream 74 percent, pi zero point five 66 percent, ControlVLA 60 percent. Out of distribution success: ObjDream 55 percent, pi zero point five 53 percent, ControlVLA 31 percent.">
+          <div class="comparison-group"><h4>In distribution</h4><div class="bar-row"><span>ObjDream</span><div class="bar-track"><i class="bar obj" style="width:74%"></i></div><b>74%</b></div><div class="bar-row"><span>π0.5</span><div class="bar-track"><i class="bar" style="width:66%"></i></div><b>66%</b></div><div class="bar-row"><span>ControlVLA</span><div class="bar-track"><i class="bar light" style="width:60%"></i></div><b>60%</b></div></div>
+          <div class="comparison-group"><h4>Out of distribution</h4><div class="bar-row"><span>ObjDream</span><div class="bar-track"><i class="bar obj" style="width:55%"></i></div><b>55%</b></div><div class="bar-row"><span>π0.5</span><div class="bar-track"><i class="bar" style="width:53%"></i></div><b>53%</b></div><div class="bar-row"><span>ControlVLA</span><div class="bar-track"><i class="bar light" style="width:31%"></i></div><b>31%</b></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell citation-section" id="citation">
+      <div class="section-heading"><span class="section-index">05 / Citation</span><h2>Cite ObjDream.</h2></div>
+      <p class="section-lead">If you find this work useful, please cite our preprint.</p>
+      <div class="citation-box"><pre id="bibtex">@misc{ma2026objdream,
+  title = {ObjDream: Guiding Vision-Language-Action Models with Object-Level Understanding and Future State Prediction},
+  author = {Ma, Huailiang and Li, Yuxuan and Zhao, Ziyi and Wang, Xinkai and Li, Mingyu and Guo, Xinyu and Zhu, Lifeng and Song, Aiguo and Lu, Cewu and Sun, Jianhua},
+  year = {2026},
+  url = {https://huailiangma.github.io/objdream},
+  note = {Preprint}
+}</pre><button type="button" id="copy-citation" aria-label="Copy BibTeX citation">Copy BibTeX</button></div>
+    </section>
+  </main>
+  <footer class="footer"><div class="shell">ObjDream <span>Object-level understanding for robust robot manipulation</span></div></footer>
+  <script src="./site.js" defer></script>
+</body>
+</html>
