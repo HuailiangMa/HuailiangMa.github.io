@@ -13,3 +13,4 @@
 #results{padding-bottom:72px}
 
 h2,h3,h4{font-weight:400}.hero h1 strong{font-weight:750}.brand{font-weight:700}
+.release-badge{font-size:.77rem;font-weight:400;background:#edf1f6;color:var(--muted);border-radius:5px;padding:2px 7px}
