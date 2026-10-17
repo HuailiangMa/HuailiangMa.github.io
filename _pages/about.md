@@ -2,7 +2,7 @@
 permalink: /
 title: "Homepage"
 seo_title: "GitHub Pages - Huailiang Ma"
-last_modified_at: 2026-09-26
+last_modified_at: 2026-10-17
 description: "Huailiang Ma is a Ph.D. student at Southeast University, jointly trained at Shanghai Innovation Institute. His research focuses on embodied intelligence, world models, and vision-language-action models."
 author_profile: true
 redirect_from:
@@ -36,11 +36,11 @@ I received my B.Eng. in Automation from the **School of Control Science and Engi
 ## Selected Publications
 
 <div class="publication">
-  <img src="/images/ofp-vla.png?v=20260926-concept" alt="AI-generated conceptual illustration of robot manipulation" title="AI-generated concept illustration" loading="lazy">
+  <img src="/objdream/assets/overview.png" alt="Overview of ObjDream's object-level vision-language-action framework" loading="lazy">
   <p>
-    Anonymous authors.<br>
-    <em>OFP-VLA.</em><br>
-    <strong>Under review.</strong>
+    <strong>Ma, H.</strong>, Li, Y., Zhao, Z., Wang, X., Li, M., Guo, X., Zhu, L., Song, A., Lu, C., Sun, J.<br>
+    <em>ObjDream: Guiding Vision-Language-Action Models with Object-Level Understanding and Future State Prediction.</em><br>
+    <strong>Under review.</strong> <a href="https://huailiangma.github.io/objdream/" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">Project Page</a>
   </p>
 </div>
 
